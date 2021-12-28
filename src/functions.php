@@ -55,4 +55,8 @@ function OrdenarPedido($productosARRAY){
 function consumoTotal(){
 
 }
+
+function generarEnlaceWSP(){
+    
+}
 ?>
