@@ -57,6 +57,12 @@ function consumoTotal(){
 }
 
 function generarEnlaceWSP(){
-    
+    $number = '';
+    $menssage = ''; //ingresar la lista del pedido
+    $menssage = str_replace(' ','+',$menssage);
+
+    if (!empty($number and $menssage)) {
+        return "https://api.whatsapp.com/send/?phone=".$number.'&text='.$menssage.'&app_absent=0';
+    }
 }
 ?>
