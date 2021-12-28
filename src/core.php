@@ -5,14 +5,18 @@
 require('functions.php');
 
 
-class product {
+class products {
 
-
-    public $products;
+    public $product;
 
     public function getProduct(){
         // code
     }
+
+}
+
+cargarDatos(){
+    $_SESSION['productos'] = new products;
 
 
 }

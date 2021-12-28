@@ -4,6 +4,9 @@
 ============================================================================*/ 
 require('../config.php');
 
+// Iniciamos la sesión para variables de sesion
+session_start();
+
 
 
 ?>
