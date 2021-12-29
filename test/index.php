@@ -28,8 +28,8 @@ require('../src/core.php');
 
 
 
-      echo 'hola';
-      
+    echo 'hola';
+
 
 
 
