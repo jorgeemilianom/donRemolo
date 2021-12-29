@@ -112,4 +112,13 @@ function consumoTotal(){
 function generarEnlaceWSP(){
     
 }
+
+function t($arraytest){
+    $count = 0;
+    while($count < count($arraytest)){
+        print_r($arraytest[$count]);
+        echo '<hr><br>';
+        $count++;
+    }
+}
 ?>
