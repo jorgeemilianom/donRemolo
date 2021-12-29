@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-12-2021 a las 04:38:44
--- Versión del servidor: 10.4.17-MariaDB
--- Versión de PHP: 7.2.34
+-- Tiempo de generación: 29-12-2021 a las 03:40:53
+-- Versión del servidor: 10.4.22-MariaDB
+-- Versión de PHP: 8.1.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -41,7 +41,10 @@ CREATE TABLE `productos` (
 --
 
 INSERT INTO `productos` (`id`, `product`, `price`, `description`, `url_img`, `category`) VALUES
-(1, 'Empanada de carne', 85, 'Empanada de carne molida PREMIUM', 'https://unaricareceta.com/wp-content/uploads/2020/04/Webp.net-resizeimage-22-3.jpg', 'Empanadas');
+(1, 'Empanada de carne', 85, 'Empanada de carne molida PREMIUM', 'https://unaricareceta.com/wp-content/uploads/2020/04/Webp.net-resizeimage-22-3.jpg', 'Empanadas'),
+(2, 'Pizza muzzarella', 400, 'Pizza con queso muzzarella', 'https://www.johaprato.com/files/styles/flexslider_full/public/pizza_de_mozzarella.jpg?itok=0X9_f7K8', 'Pizzas'),
+(3, 'Coquita', 230, 'Gaseosa de Cola', 'https://tunovo.com.ar/wp-content/uploads/7790895000997.jpg', 'Bebidas'),
+(4, 'Helado de chocolate', 50, 'Palito bombom', 'https://www.heladoscalzia.com.ar/images/productos/impulsivos/03-Ba%C3%B1aditos.png', 'Postres');
 
 --
 -- Índices para tablas volcadas
@@ -61,7 +64,7 @@ ALTER TABLE `productos`
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
