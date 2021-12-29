@@ -43,6 +43,35 @@ function filtrarCategorias( $arrayAsociativo ){
     $_SESSION['bebidas'] = [] ;
     $_SESSION['postres'] = [] ;
 
+    try{
+        $count = 0;
+        while($count < count($arrayAsociativo)){
+            switch($arrayAsociativo[$count]->category){
+                case 'Postres':{
+                    array_push($_SESSION['postres'],$arrayAsociativo[$count]);
+                    break;
+                }
+                case 'Pizzas':{
+                    array_push($_SESSION['pizzas'],$arrayAsociativo[$count]);
+                    break;
+                }
+                case 'Bebidas':{
+                    array_push($_SESSION['bebidas'],$arrayAsociativo[$count]);
+                    break;
+                }
+                case 'Empanadas':{
+                    array_push($_SESSION['empanadas'],$arrayAsociativo[$count]);
+                    break;
+                }
+            }
+            $count++;
+        }
+        return true;
+    }
+    catch(Exception $e){
+        echo($e->getMessage());
+        return false;
+    }
     // debe retornar un boolean en caso de que se haya hecho el filtraje correctamente
 }
 
