@@ -52,11 +52,14 @@ function OrdenarPedido($productosARRAY){
     $_SESSION['pedido'] = '';
 }
 
-function consumoTotal(){
-
+function consumoTotal(/*colocar variable*/){
+    $total = 0;
+    while ($total <= 10) {
+        # code...
+    }
 }
 
-function generarEnlaceWSP(){
+function generarEnlaceWSP($number,$menssage){
     $number = '';
     $menssage = ''; //ingresar la lista del pedido
     $menssage = str_replace(' ','+',$menssage);
