@@ -105,11 +105,27 @@ function OrdenarPedido($productosARRAY){
     
 }
 
-function consumoTotal(/*colocar variable*/){
-    $total = 0;
-    while ($total <= 10) {
-        # code...
-    }
+function consumoTotal(){
+
+    /*$pedidos = array (
+        'array1'=>array('pruducto'=>'empanada','price'=>50,'url'=>'https://unaricareceta.com/wp-content/uploads/2020','cantidad'=>2),
+        'array2'=>array('pruducto'=>'chocolate','price'=>10,'url'=>'https://unaricareceta.com/wp-content/uploads/2020','cantidad'=>3),
+        'array3'=>array('pruducto'=>'coca','price'=>20,'url'=>'https://unaricareceta.com/wp-content/uploads/2020','cantidad'=>1)
+    );
+    
+    $sumatoria=0;
+    $count = 0;
+
+    var_dump();
+
+    /*$sumatoria += $pedidos[$count]['price'] * $pedidos[$count]['cantidad'];
+    while($count < count($pedidos)){
+                
+        $sumatoria += $pedidos[$count]['price'] * $pedidos[$count]['cantidad'];
+        $count ++;
+        echo $sumatoria;
+    }*/
+    
 }
 
 function generarEnlaceWSP($number,$menssage){

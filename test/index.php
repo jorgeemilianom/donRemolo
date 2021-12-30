@@ -26,9 +26,7 @@ require('../src/core.php');
     <div class="caja"><?php
 
 
-
-
-    echo 'hola';
+    echo "Hola";    
 
 
 
