@@ -1,0 +1,39 @@
+/*
+  Reset CSS
+*/
+
+/* 1. box-sizing model. */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Eliminar margen predeterminado de los browser */
+* {
+  margin: 0;
+}
+
+/* 3. Estableciendo la minima altura de una caja a toda la pantalla */
+html, body {
+  height: 100%;
+}
+
+/* 4. Mejora la representación del texto */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Mejorar los valores predeterminados de los medios */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Evitar los desbordamientos de texto */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/*
+  End - Reset CSS
+*/
