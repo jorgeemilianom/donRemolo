@@ -1,0 +1,31 @@
+/* Estilo del Componente Navbar*/
+header {
+  position: fixed;
+  top: 0px;
+  
+}
+
+nav {
+  display: inline-flex;
+  width: 100vw;
+  align-items: center;
+  height: var(--header-Nav-height);
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 20%);
+  backdrop-filter: blur(2px);
+  background: var(--background--Nav)
+}
+
+.logo {
+  width: var(--header-Nav-height);
+  height: auto;
+}
+
+picture+div {
+  width: 100%;
+  text-align: center;
+  margin-left: calc(var(--header-Nav-height) - (var(--header-Nav-height) * 2) + 1rem);
+}
+
+.MarginTopNav {
+  margin-bottom: var(--header-Nav-height);
+}
