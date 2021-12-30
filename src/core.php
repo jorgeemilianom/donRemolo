@@ -4,17 +4,14 @@
 ============================================================================*/ 
 require('functions.php');
 
+function cargarDatos(){
+    $_SESSION['products'] = obtenerProductos();
+    
+    // TODO ANDANDO OK
 
-class product {
-
-
-    public $products;
-
-    public function getProduct(){
-        // code
-    }
-
-
+    // var_dump($_SESSION['products']);
+    // die();
 }
 
+// cargarDatos();
 ?>
