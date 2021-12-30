@@ -16,7 +16,7 @@ require('../src/core.php');
 <style>
     .caja {
         border: #f2f2f210 solid 1px;
-        margin: 100px 250px ;
+        margin: 100px 250px;
         padding: 20px;
     }
 </style>
@@ -25,12 +25,10 @@ require('../src/core.php');
     <!-- Aca dentro va codigo PHP -->
     <div class="caja"><?php
 
-
-    echo "Hola";    
-
+    consumoTotal();
 
 
 
-    ?></div>  
+    ?></div> 
 </body>
 </html>

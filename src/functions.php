@@ -105,34 +105,51 @@ function OrdenarPedido($productosARRAY){
     
 }
 
-function consumoTotal(){
-
-    /*$pedidos = array (
-        'array1'=>array('pruducto'=>'empanada','price'=>50,'url'=>'https://unaricareceta.com/wp-content/uploads/2020','cantidad'=>2),
-        'array2'=>array('pruducto'=>'chocolate','price'=>10,'url'=>'https://unaricareceta.com/wp-content/uploads/2020','cantidad'=>3),
-        'array3'=>array('pruducto'=>'coca','price'=>20,'url'=>'https://unaricareceta.com/wp-content/uploads/2020','cantidad'=>1)
-    );
+function consumoTotal($pedidos){
+    try {
+        // $pedidos = [
+        //     [ // 0
+        //         'pruducto'=>'empanada',
+        //         'price'=>50,
+        //         'url'=>'https://unaricareceta.com/wp-content/uploads/2020',
+        //         'cantidad'=>2
+        //     ],
+        //     [ // 1
+        //         'pruducto'=>'empanada',
+        //         'price'=>50,
+        //         'url'=>'https://unaricareceta.com/wp-content/uploads/2020',
+        //         'cantidad'=>2
+        //     ],
+        //     [ // 2
+        //         'pruducto'=>'empanada',
+        //         'price'=>50,
+        //         'url'=>'https://unaricareceta.com/wp-content/uploads/2020',
+        //         'cantidad'=>2
+        //     ]
+        // ];
+        $sumatoria=0;
+        $count = 0;
     
-    $sumatoria=0;
-    $count = 0;
+        while($count < count($pedidos)){
+            $sumatoria += $pedidos[$count]['price'] * $pedidos[$count]['cantidad'];
+            $count ++;
+        }
+            $sumatoria += $pedidos[$count]['price'] * $pedidos[$count]['cantidad'];
 
-    var_dump();
+        $_SESSION['totalCompra'];
+        return true;
 
-    /*$sumatoria += $pedidos[$count]['price'] * $pedidos[$count]['cantidad'];
-    while($count < count($pedidos)){
-                
-        $sumatoria += $pedidos[$count]['price'] * $pedidos[$count]['cantidad'];
-        $count ++;
-        echo $sumatoria;
-    }*/
-    
+    }catch(Exception $e){
+        echo($e->getMessage());
+        return false;
+    }
 }
 
 function generarEnlaceWSP($number,$menssage){
     
     $menssage = str_replace(' ','+',$menssage);
 
-    if (empty($number and $menssage) == FALSE) {
+    if (empty($number and $menssage) == false) {
         echo "https://api.whatsapp.com/send/?phone=".$number.'&text='.$menssage.'&app_absent=0';
     }
 }
