@@ -1,8 +1,8 @@
 /* Estilo del Componente Navbar*/
 header {
-  position: fixed;
+ 
   top: 0px;
-  
+  position:relative;
 }
 
 nav {
@@ -12,7 +12,9 @@ nav {
   height: var(--header-Nav-height);
   box-shadow: 0 2px 12px 0 rgb(0 0 0 / 20%);
   backdrop-filter: blur(2px);
-  background: var(--background--Nav)
+  background: var(--background--Nav);
+  font-size: xx-large;
+  font-style: italic
 }
 
 .logo {
