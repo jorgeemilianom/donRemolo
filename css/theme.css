@@ -1,0 +1,9 @@
+/* El Objeto es fijar en Variables Globales todo lo concerniente a theme.*/
+
+:root {
+  /* Variable de altura del Header*/
+  --header-Nav-height: 60px;
+
+  /* Variable de Color de fondo Navbar */
+  --background--Nav: rgba(187, 132, 132, 0.274)
+}
