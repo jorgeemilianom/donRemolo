@@ -33,7 +33,14 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-/*7.Agregar cuadrado después del header hecho por Emilio */
+/*7. Quitando Estilos de los textos de links  */
+
+a:-webkit-any-link {
+  color: unset;
+  text-decoration: none;
+}
+
+/*8.Agregar cuadrado después del header hecho por Emilio */
 
 .cuadrado {
   margin-top: 30px ! important;
