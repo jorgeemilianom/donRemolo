@@ -11,9 +11,8 @@
 
 .products-container {
 
-
     /* color*/
-    background-color: #ec3305c4;
+    background: var(--background-list-price);
 
     /* tamaños y margenes*/
     max-width: 800px;
