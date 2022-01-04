@@ -1,31 +1,26 @@
-@media only screen and (min-width:1024px) {
-    .products-container {
+/* para que se centre el containter en la resolucion 1024*/
+@media only screen and (min-width:1024px)
+{
+.products-container
+ {
+ margin: 0 auto !important;
 
-        margin: 0 auto !important;
-
-    }
-
+ }
 }
 
-
+/* para desk*/ 
 
 .products-container {
-
-    /* color*/
     background: var(--background-list-price);
 
-    /* tamaños y margenes*/
     max-width: 800px;
     display: grid;
     align-items: center;
     padding: 0.5rem;
     margin: 0rem 1rem;
 
-    /*bordes */
-
     border-radius: 5px;
-    border-bottom: 2px solid #5e5d5dd0;
-    border-top: 1px solid #5e5d5dd0;
+     box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -45,18 +40,19 @@
 .cantidad {
     text-align: center;
     padding: 0px;
-
+    font-family: var(--Home-Card-FontFamily);
 }
 
 .detalle {
     text-align: center;
     padding: 0px;
-
+    font-family: var(--Home-Card-FontFamily);
 }
 
 .precio {
     text-align: center;
     padding: 0px;
+    font-family: var(--Home-Card-FontFamily);
 }
 
 
@@ -76,12 +72,14 @@
     padding: 0.5rem;
     border-radius: 4px;
     color: white;
-    font-size: 19px;
-    align-items: center
+    
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: var(--Home-Card-FontFamily);
 }
 
 .total-price {
-
+    font-family: var(--Home-Card-FontFamily);
     display: grid;
     text-align: center;
     background-color: #313638;
@@ -90,5 +88,49 @@
     border-radius: 4px;
     align-items: center;
     margin-left: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
 
+
+.box-add{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: auto min-content;
+    justify-items: center;
+}
+
+
+.add-product{
+    
+
+    margin-top: 6px;
+    display: grid;
+    color: white;
+    border: none;
+    background-color: #313638;
+    
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: var(--Home-Card-FontFamily);
+}
+
+.box-post{
+
+    display: grid;
+    grid-template-columns: auto min-content;
+    justify-items: center;
+}
+
+.post{
+    margin-top: 6px;
+    display: grid;
+    color: white;
+    border: none;
+    background-color: #313638;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: var(--Home-Card-FontFamily);
 }

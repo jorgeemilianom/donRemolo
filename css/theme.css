@@ -8,8 +8,8 @@
   --background--Nav: rgba(187, 132, 132, 0.274);
 
   /* Variable de Fuentes en Home Cards  */
-  --Home-Card-fontFamily: OpenSans
+  --Home-Card-fontFamily: OpenSans;
 
 /* variable para fondo en listas de precios*/
---background-list-price: #ec3305c4;
+--background-list-price: #ec3205;
 }
