@@ -33,6 +33,23 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
+/*7.Agregar cuadrado después del header hecho por Emilio */
+
+.cuadrado{
+  margin-top: 30px ! important;
+  padding: 20px;
+  margin:10px;
+  background-color: #d4c6c6ef;
+  border: solid 1px  #d4c6c6ef(255, 247, 247);
+  color: black;
+}
+
+.cuadradoMitad{
+  width: 40%;
+  border: solid 1px  #d4c6c6ef(255, 247, 247);
+}
+
+
 /*
   End - Reset CSS
 */
