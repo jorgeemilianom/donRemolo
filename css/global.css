@@ -15,8 +15,6 @@
 /* 3. Estableciendo la minima altura de una caja a toda la pantalla */
 html, body {
   height: 100%;
-  font-size: 62.5%;
-  /* Estableciendo 1rem = 10px */
 }
 
 /* 4. Mejora la representación del texto */
@@ -55,3 +53,11 @@ p, h1, h2, h3, h4, h5, h6 {
 /*
   End - Reset CSS
 */
+
+/* fonts */
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+
+}
