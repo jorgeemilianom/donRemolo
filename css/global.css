@@ -15,6 +15,8 @@
 /* 3. Estableciendo la minima altura de una caja a toda la pantalla */
 html, body {
   height: 100%;
+  font-size: 62.5%;
+  /* Estableciendo 1rem = 10px */
 }
 
 /* 4. Mejora la representación del texto */
@@ -35,22 +37,21 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /*7.Agregar cuadrado después del header hecho por Emilio */
 
-.cuadrado{
+.cuadrado {
   margin-top: 30px ! important;
   padding: 20px;
-  margin:10px;
+  margin: 10px;
   background-color: #d4c6c6ef;
-  border: solid 1px  #d4c6c6ef(255, 247, 247);
+  border: solid 1px #d4c6c6ef(255, 247, 247);
   color: black;
 }
 
-.cuadradoMitad{
+.cuadradoMitad {
   width: 40%;
-  border: solid 1px  #d4c6c6ef(255, 247, 247);
+  border: solid 1px #d4c6c6ef(255, 247, 247);
 }
 
 
 /*
   End - Reset CSS
 */
-
