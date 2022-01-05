@@ -11,14 +11,13 @@
 /* para desk*/ 
 
 .products-container {
-    background: var(--background-list-price);
+    background: #313638;
 
     max-width: 800px;
     display: grid;
     align-items: center;
     padding: 0.5rem;
     margin: 0rem 1rem;
-
     border-radius: 5px;
      box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
 }
@@ -68,7 +67,7 @@
     display: grid;
     min-width: 10rem;
     text-align: center;
-    background-color: #313638;
+    background-color: #ec3205;
     padding: 0.5rem;
     border-radius: 4px;
     color: white;
@@ -82,7 +81,7 @@
     font-family: var(--Home-Card-FontFamily);
     display: grid;
     text-align: center;
-    background-color: #313638;
+    background-color: #ec3205;
     color: white;
     padding: 0rem 1rem;
     border-radius: 4px;
@@ -108,7 +107,7 @@
     display: grid;
     color: white;
     border: none;
-    background-color: #313638;
+    background-color: #ec3205;
     
     padding: 0.5rem 1rem;
     border-radius: 3px;
@@ -128,7 +127,7 @@
     display: grid;
     color: white;
     border: none;
-    background-color: #313638;
+    background-color: #ec3205;
     border-radius: 3px;
     padding: 0.5rem 1rem;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
