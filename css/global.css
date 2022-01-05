@@ -39,17 +39,43 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-top: 30px ! important;
   padding: 20px;
   margin:10px;
-  background-color: #d4c6c6ef;
+  background-color: #f5eeeeef;
   border: solid 1px  #d4c6c6ef(255, 247, 247);
   color: black;
+  border-radius: 5%;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 30%)
 }
 
-.cuadradoMitad{
+
+
+/*Imagen de Muzarella */ 
+.Pizza-Muzzarella {
   width: 40%;
-  border: solid 1px  #d4c6c6ef(255, 247, 247);
+  height: 40%;
+  
+  /*width: 100%;
+  text-align: center;
+  margin-left: calc(var(--header-Nav-height) - (var(--header-Nav-height) * 2) + 1rem);*/
 }
 
+.contenido{
+  width: 50%;
+    float: left;
+    height: auto;
+  
+  
+}
 
+.imagen{
+  
+  width: 50%;
+    float: left;
+    height: auto;
+}
+
+#clear {
+  clear: both;
+}
 /*
   End - Reset CSS
 */
