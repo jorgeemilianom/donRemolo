@@ -1,0 +1,135 @@
+/* para que se centre el containter en la resolucion 1024*/
+@media only screen and (min-width:1024px)
+{
+.products-container
+ {
+ margin: 0 auto !important;
+
+ }
+}
+
+/* para desk*/ 
+
+.products-container {
+    background: #313638;
+
+    max-width: 800px;
+    display: grid;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0rem 1rem;
+    border-radius: 5px;
+     box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.price-list {
+
+    background-color: #f9f9f9;
+    border: solid 1px #d4c6c6ef(255, 247, 247);
+    display: grid;
+    grid-template-columns: min-content auto max-content;
+
+    padding: 10px 10px 10px 10px;
+    color: black;
+    border-radius: 4px;
+
+}
+
+.cantidad {
+    text-align: center;
+    padding: 0px;
+    font-family: var(--Home-Card-FontFamily);
+}
+
+.detalle {
+    text-align: center;
+    padding: 0px;
+    font-family: var(--Home-Card-FontFamily);
+}
+
+.precio {
+    text-align: center;
+    padding: 0px;
+    font-family: var(--Home-Card-FontFamily);
+}
+
+
+.padre-price {
+    display: grid;
+    grid-template-columns: auto max-content;
+    justify-items: end;
+}
+
+
+
+.total {
+    display: grid;
+    min-width: 10rem;
+    text-align: center;
+    background-color: #ec3205;
+    padding: 0.5rem;
+    border-radius: 4px;
+    color: white;
+    
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: var(--Home-Card-FontFamily);
+}
+
+.total-price {
+    font-family: var(--Home-Card-FontFamily);
+    display: grid;
+    text-align: center;
+    background-color: #ec3205;
+    color: white;
+    padding: 0rem 1rem;
+    border-radius: 4px;
+    align-items: center;
+    margin-left: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.box-add{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: auto min-content;
+    justify-items: center;
+}
+
+
+.add-product{
+    
+
+    margin-top: 6px;
+    display: grid;
+    color: white;
+    border: none;
+    background-color: #ec3205;
+    
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: var(--Home-Card-FontFamily);
+}
+
+.box-post{
+
+    display: grid;
+    grid-template-columns: auto min-content;
+    justify-items: center;
+}
+
+.post{
+    margin-top: 6px;
+    display: grid;
+    color: white;
+    border: none;
+    background-color: #ec3205;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: var(--Home-Card-FontFamily);
+}

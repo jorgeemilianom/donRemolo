@@ -33,9 +33,27 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-/*7.Agregar cuadrado después del header hecho por Emilio */
+/*7. Quitando Estilos de los textos de links  */
 
-.cuadrado{
+a:-webkit-any-link {
+  color: unset;
+  text-decoration: none;
+}
+
+/*8.Agregar cuadrado después del header hecho por Emilio */
+
+
+
+.contenido{
+  width: 50%;
+    float: left;
+    height: auto;
+  
+  
+}
+
+
+.cuadrado {
   margin-top: 30px ! important;
   padding: 20px;
   margin:10px;
@@ -80,3 +98,10 @@ p, h1, h2, h3, h4, h5, h6 {
   End - Reset CSS
 */
 
+/* fonts */
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+
+}
