@@ -1,0 +1,39 @@
+
+.contenido
+
+{   
+    margin: 100px 30px 10px 100px;
+    border: 1px solid #e1e1e1;
+    border-top-width: 10px;
+    border-right-width: 1em;
+    position:relative;
+    text-align: center;
+    border-bottom-width: thick;
+    border-left-width: thin;
+}
+
+.ajuste {
+text-align: center;
+margin-top: 1rem;
+font-size: 30px;
+
+}
+
+.cambios
+
+{
+
+text-align: center;
+margin-top: 5rem;
+height: 300px;
+width: 300px;
+
+}
+
+img{
+
+display:block;
+margin:auto;
+max-width: 100%;
+max-height: 100%;
+}
