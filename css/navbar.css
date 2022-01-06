@@ -34,7 +34,7 @@ body>header>nav>div {
 }
 
 picture+div {
-  margin-left: calc(var(--header-Nav-height) - (var(--header-Nav-height) * 2) - 2rem);
+  margin-left: calc(var(--header-Nav-height) - (var(--header-Nav-height) * 2) + 1rem);
 }
 
 .MarginTopNav {
