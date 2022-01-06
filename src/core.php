@@ -2,7 +2,7 @@
 /*============================================================================
 |       Lógica y preparación de datos a mostrar
 ============================================================================*/ 
-require('functions.php');
+require($URLweb.'/src/functions.php');
 
 function cargarDatos(){
     $_SESSION['products'] = obtenerProductos();
@@ -13,5 +13,5 @@ function cargarDatos(){
     // die();
 }
 
-// cargarDatos();
+cargarDatos();
 ?>
