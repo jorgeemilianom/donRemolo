@@ -38,7 +38,7 @@ picture+div {
 }
 
 .MarginTopNav {
-  margin-bottom: calc(var(--header-Nav-height) + 5rem);
+  padding-top: calc(var(--header-Nav-height) + 5rem);
 }
 
 .titleNav {
