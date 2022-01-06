@@ -5,11 +5,16 @@
   --header-Nav-height: 60px;
 
   /* Variable de Color de fondo Navbar */
-  --background--Nav: rgba(187, 132, 132, 0.274);
+  --background--Nav: rgba(255, 255, 255, 0.5);
 
+  /* Variable size with logo */
+  --size-With-Logo: 6.438rem;
+
+  /* Margen horizontal de componentes */
+  --margen-horizontal: 0 1rem;
   /* Variable de Fuentes en Home Cards  */
   --Home-Card-fontFamily: OpenSans;
 
-/* variable para fondo en listas de precios*/
---background-list-price: #ec3205;
+  /* variable para fondo en listas de precios*/
+  --background-list-price: #ec3205;
 }

@@ -2,34 +2,49 @@
 header {
   position: fixed;
   /* Necesario para que sea flotante la barra del Nav*/
-  top: 0px;
+  top: 1rem;
   z-index: 1;
-  
+  width: 100%;
+
 }
 
-nav {
-  display: inline-flex;
-  width: 100vw;
+body>header>nav>div {
+  display: grid;
+  width: 100%;
+  grid-template-columns: max-content repeat(4, 1fr);
   align-items: center;
+  transform: translateY(-1.5rem);
+  margin-top: 1rem;
+
+}
+
+.cardNavbar {
   height: var(--header-Nav-height);
   box-shadow: 0 2px 12px 0 rgb(0 0 0 / 20%);
   backdrop-filter: blur(2px);
   background: var(--background--Nav);
-  font-size: xx-large;
-  font-style: italic
+  border-radius: 1rem;
+  margin: var(--margen-horizontal);
 }
 
 .logo {
-  width: var(--header-Nav-height);
+  width: var(--size-With-Logo);
   height: auto;
+  transform: translateX(-5px);
 }
 
 picture+div {
-  width: 100%;
-  text-align: center;
-  margin-left: calc(var(--header-Nav-height) - (var(--header-Nav-height) * 2) + 1rem);
+  margin-left: calc(var(--header-Nav-height) - (var(--header-Nav-height) * 2) - 2rem);
 }
 
 .MarginTopNav {
-  margin-bottom: calc(var(--header-Nav-height) + 1rem);
+  margin-bottom: calc(var(--header-Nav-height) + 5rem);
+}
+
+.titleNav {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  text-align: center;
+  font-size: xx-large;
+  font-style: italic
 }
