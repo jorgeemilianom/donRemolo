@@ -1,6 +1,6 @@
 /* Estilo del Componente Navbar*/
 header {
-  position: sticky;
+  position: fixed;
   /* Necesario para que sea flotante la barra del Nav*/
   top: 0px;
   z-index: 1;

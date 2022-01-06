@@ -40,18 +40,21 @@
     text-align: center;
     padding: 0px;
     font-family: var(--Home-Card-FontFamily);
+    text-shadow: 0px 0px 1px #31363886;
 }
 
 .detalle {
     text-align: center;
     padding: 0px;
     font-family: var(--Home-Card-FontFamily);
+    text-shadow:  0px 0px 1px  #0a0a0a86;
 }
 
 .precio {
     text-align: center;
     padding: 0px;
     font-family: var(--Home-Card-FontFamily);
+    text-shadow: 0px 0px 0.5px #3d3d3d86;
 }
 
 
@@ -67,13 +70,13 @@
     display: grid;
     min-width: 10rem;
     text-align: center;
-    background-color: var(--background-list-price);
+    
     padding: 0.5rem;
     border-radius: 4px;
     color: #313638;
     
     align-items: center;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+   
     font-family: var(--Home-Card-FontFamily);
 }
 
@@ -83,7 +86,7 @@
     text-align: center;
     background-color: #fff485;
     color: #313638;
-    padding: 0rem 1rem;
+    padding: 0rem 3rem;
     border-radius: 4px;
     align-items: center;
     margin-left: 1rem;
@@ -109,10 +112,11 @@
     border: none;
     background-color: var(--background-list-price);
     
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.8rem;
     border-radius: 3px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     font-family: var(--Home-Card-FontFamily);
+    text-shadow: 0px 0px 1px #31363886;
 }
 
 .box-exit{
@@ -132,4 +136,5 @@
     padding: 0.5rem 1rem;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     font-family: var(--Home-Card-FontFamily);
+    text-shadow: 0px 0px 1px #31363886;
 }

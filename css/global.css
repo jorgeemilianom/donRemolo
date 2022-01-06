@@ -65,6 +65,10 @@ a:-webkit-any-link {
 
 @font-face {
   font-family: OpenSans;
-  src: url( ../assets/fonts/OpenSans-VariableFont_wdth\wight.ttf);
+  src: url(../assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
 
+}
+
+* {
+  font-family: OpenSans;
 }
