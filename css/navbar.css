@@ -4,6 +4,7 @@ header {
   /* Necesario para que sea flotante la barra del Nav*/
   top: 0px;
   z-index: 1;
+  
 }
 
 nav {

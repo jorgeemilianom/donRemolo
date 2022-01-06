@@ -11,7 +11,7 @@
 /* para desk*/ 
 
 .products-container {
-    background: #313638;
+    background: #f1f1f1;
     max-width: 800px;
     display: grid;
     align-items: center;
@@ -25,7 +25,7 @@
 
 .price-list {
 
-    background-color: #f9f9f9;
+    background-color: #fff485;
     border: solid 1px #d4c6c6ef(255, 247, 247);
     display: grid;
     grid-template-columns: min-content auto max-content;
@@ -70,7 +70,7 @@
     background-color: var(--background-list-price);
     padding: 0.5rem;
     border-radius: 4px;
-    color: white;
+    color: #313638;
     
     align-items: center;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -81,8 +81,8 @@
     font-family: var(--Home-Card-FontFamily);
     display: grid;
     text-align: center;
-    background-color: var(--background-list-price);
-    color: white;
+    background-color: #fff485;
+    color: #313638;
     padding: 0rem 1rem;
     border-radius: 4px;
     align-items: center;
@@ -105,7 +105,7 @@
 
     margin-top: 6px;
     display: grid;
-    color: white;
+    color: #313638;
     border: none;
     background-color: var(--background-list-price);
     
@@ -125,7 +125,7 @@
 .exit{
     margin-top: 6px;
     display: grid;
-    color: white;
+    color: #313638;
     border: none;
     background-color: var(--background-list-price);
     border-radius: 3px;
