@@ -34,11 +34,11 @@ body>header>nav>div {
 }
 
 picture+div {
-  margin-left: calc(var(--header-Nav-height) - (var(--header-Nav-height) * 2) - 2rem);
+  margin-left: calc(var(--header-Nav-height) - (var(--header-Nav-height) * 2) + 1rem);
 }
 
 .MarginTopNav {
-  margin-bottom: calc(var(--header-Nav-height) + 5rem);
+  padding-top: calc(var(--header-Nav-height) + 5rem);
 }
 
 .titleNav {

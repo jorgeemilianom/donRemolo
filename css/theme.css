@@ -17,4 +17,14 @@
 
   /* variable para fondo en listas de precios*/
   --background-list-price: #ec3205;
+
+  /* Variable Color de Cartas */
+  --Cards-Colors: #fff;
+}
+
+.backgroundHome {
+  background-image: url("../assets/img/homeBackground.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }

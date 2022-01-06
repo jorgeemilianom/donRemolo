@@ -16,6 +16,7 @@
 /* 3. Estableciendo la minima altura de una caja a toda la pantalla */
 html, body {
   height: 100%;
+  background: #f1f1f1;
 }
 
 /* 4. Mejora la representación del texto 
