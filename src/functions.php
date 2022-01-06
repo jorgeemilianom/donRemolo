@@ -2,8 +2,8 @@
 /*============================================================================
 |       Funciones auxiliares
 ============================================================================*/ 
-require('database.php');
-require('entitys/product.php');
+require($URLweb.'/src/database.php');
+require($URLweb.'/src/entitys/product.php');
 
 function obtenerProductos(){
     // DB
@@ -18,6 +18,7 @@ function obtenerProductos(){
     $count = 0;
 
     // Recorremos el objeto que devolvió la DB y hacemos FETCH_ASSOC para hacerlo un array asociativo
+    
     while($data = $obj->fetch_assoc()){
         $products [$count] = new product();
         $products [$count]->setid($data['id']);
