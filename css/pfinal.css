@@ -1,13 +1,18 @@
 .contenido
 {   
     margin: 100px 10px 15px 100px;
-    border: 1px solid #e1e1e1;
-    border-top-width: 10px;
+    border: 1px solid #000;
+    border-top-width: 5px;
     border-right-width: 1em;
     position:relative;
     text-align: center;
-    border-bottom-width: thick;
-    border-left-width: thin;
+    background: #ec3205;
+    border-radius: 20px;
+    /*color: #fff;*/
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    
 }
 
 .ajuste {
@@ -25,9 +30,7 @@ img
     max-height: 100%;
     max-width: 100%;
     
-    
 
-     
 }
 
 .cat {
@@ -37,5 +40,20 @@ img
  display:block;
  margin:auto;
  
+
+    
+ 
+
+}
+
+.margen {
+    background:#ec3205;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border: 1px solid #000;
 
 }
