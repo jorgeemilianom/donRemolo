@@ -23,8 +23,16 @@
 }
 
 .backgroundHome {
-  background-image: url("../assets/img/homeBackground.png");
+  background-image: url("/assets/img/Background_Desktop_PNG.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+@media only screen and (max-width:414px) {
+  .backgroundHome{ 
+  background-image: url("/assets/img/Background_mobile_PNG.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
 }

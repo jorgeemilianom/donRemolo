@@ -25,7 +25,7 @@
 /* para desk*/ 
 
 .products-container {
-    background: #f1f1f1;
+    background: #f1f1f1b9;
     max-width: 700px;
     display: grid;
     align-items: center;
@@ -43,10 +43,10 @@
     border:  1px solid #727272ef(255, 247, 247);
     display: grid;
     grid-template-columns: min-content auto max-content max-content;
-    margin: 0rem 0.2rem;
+    margin: 0.2rem 0.2rem;
     padding: 5px 5px 5px 5px;
     color: black;
-    border-radius: 4px;
+    border-radius: 2px;
 
 }
 
