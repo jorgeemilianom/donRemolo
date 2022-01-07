@@ -3,15 +3,15 @@
     margin: 100px 10px 15px 100px;
     border: 1px solid #000;
     border-top-width: 5px;
-    border-right-width: 1em;
+    border-right-width: -5rem;
     position:relative;
     text-align: center;
     background: #ec3205;
     border-radius: 20px;
-    /*color: #fff;*/
     display: block;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
+    margin-top: -5rem;
     
 }
 
@@ -21,14 +21,23 @@ text-align: center;
 margin-top: 1rem;
 font-size: 30px;
 
+
 }
 
 img
 {
 
-    margin-top: 20rem;
+    margin-top: 5rem;
     max-height: 100%;
     max-width: 100%;
+    background:#ec3205;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #000;
+
     
 
 }
@@ -39,21 +48,7 @@ img
  width: 300px;
  display:block;
  margin:auto;
+ margin-top: 5rem;
+
  
-
-    
- 
-
-}
-
-.margen {
-    background:#ec3205;
-    border-radius: 5px;
-    color: #fff;
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    margin-bottom: 10px;
-    border: 1px solid #000;
-
 }
