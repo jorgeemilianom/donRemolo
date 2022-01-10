@@ -10,7 +10,9 @@
 ======================================================*/
 date_default_timezone_set('America/Argentina/Buenos_Aires');
 
-$URLweb = 'C:/xampp/htdocs/proyects/DonRemolo';
+// $URLweb = 'C:/xampp/htdocs/proyects/DonRemolo';
+$URLweb = 'donRemolo.com.devel';
+
 
 /*======================================================
 |   [SESSION]
