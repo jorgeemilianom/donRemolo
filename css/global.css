@@ -9,7 +9,8 @@
 
 /* 2. Eliminar margen predeterminado de los browser */
 * {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* 3. Estableciendo la minima altura de una caja a toda la pantalla */
@@ -17,9 +18,12 @@ html, body {
   height: 100%;
 }
 
-/* 4. Mejora la representación del texto */
+/* 4. Mejora la representación del texto 
+4.1 Definiendo OpenSans como fuente predeterminada*/
+
 body {
   -webkit-font-smoothing: antialiased;
+  font-family: OpenSans;
 }
 
 /* 5. Mejorar los valores predeterminados de los medios */
@@ -39,6 +43,7 @@ a:-webkit-any-link {
   color: unset;
   text-decoration: none;
 }
+
 
 /*8.Agregar cuadrado después del header hecho por Emilio */
 

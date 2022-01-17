@@ -6,17 +6,31 @@
  margin: 0 auto !important;
 
  }
+ .price-list {
+
+    background-color: #fff485;
+    border: solid 1px #d4c6c6ef(255, 247, 247);
+    display: grid;
+    grid-template-columns: min-content auto max-content auto;
+
+    padding: 10px 10px 10px 10px;
+    color: black;
+    border-radius: 4px;
+
 }
+}
+
+
 
 /* para desk*/ 
 
 .products-container {
-    background: #313638;
-    max-width: 800px;
+    background: #f1f1f1b9;
+    max-width: 700px;
     display: grid;
     align-items: center;
-    padding: 0.5rem;
-    margin: 0rem 1rem;
+    padding: 0.2rem;
+    margin: 0rem 0.2rem;
 
     border-radius: 5px;
      box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
@@ -25,14 +39,14 @@
 
 .price-list {
 
-    background-color: #f9f9f9;
-    border: solid 1px #d4c6c6ef(255, 247, 247);
+    background-color: #fff485;
+    border:  1px solid #727272ef(255, 247, 247);
     display: grid;
-    grid-template-columns: min-content auto max-content;
-
-    padding: 10px 10px 10px 10px;
+    grid-template-columns: min-content auto max-content max-content;
+    margin: 0.2rem 0.2rem;
+    padding: 5px 5px 5px 5px;
     color: black;
-    border-radius: 4px;
+    border-radius: 2px;
 
 }
 
@@ -40,18 +54,33 @@
     text-align: center;
     padding: 0px;
     font-family: var(--Home-Card-FontFamily);
+    text-shadow: 0px 0px 1px #31363886;
+}
+
+.cantidad p{
+    font-size: 16px;
 }
 
 .detalle {
     text-align: center;
     padding: 0px;
     font-family: var(--Home-Card-FontFamily);
+    text-shadow:  0px 0px 1px  #0a0a0a86;
+}
+
+.detalle p{
+font-size: 16px;
 }
 
 .precio {
     text-align: center;
     padding: 0px;
     font-family: var(--Home-Card-FontFamily);
+    text-shadow: 0px 0px 0.5px #3d3d3d86;
+    
+}
+.precio p {
+    font-size: 16px;
 }
 
 
@@ -59,6 +88,7 @@
     display: grid;
     grid-template-columns: auto max-content;
     justify-items: end;
+    
 }
 
 
@@ -67,13 +97,13 @@
     display: grid;
     min-width: 10rem;
     text-align: center;
-    background-color: var(--background-list-price);
+    
     padding: 0.5rem;
     border-radius: 4px;
-    color: white;
+    color: #313638;
     
     align-items: center;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+   
     font-family: var(--Home-Card-FontFamily);
 }
 
@@ -81,9 +111,9 @@
     font-family: var(--Home-Card-FontFamily);
     display: grid;
     text-align: center;
-    background-color: var(--background-list-price);
-    color: white;
-    padding: 0rem 1rem;
+    background-color: #fff485;
+    color: #313638;
+    padding: 0rem 3rem;
     border-radius: 4px;
     align-items: center;
     margin-left: 1rem;
@@ -97,39 +127,61 @@
     display: grid;
     grid-template-columns: auto min-content;
     justify-items: center;
+    min-width: 10rem;
 }
 
 
-.confirm-product{
-    
-
+#confirm-product{
     margin-top: 6px;
     display: grid;
-    color: white;
+    color: #313638;
     border: none;
     background-color: var(--background-list-price);
-    
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.8rem;
     border-radius: 3px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     font-family: var(--Home-Card-FontFamily);
+    text-shadow: 0px 0px 1px #31363886;
 }
+
+#confirm-product:hover{
+    color: white;
+    background-color: #313638;
+}
+
 
 .box-exit{
 
+    margin-top: 0.1rem;
     display: grid;
     grid-template-columns: auto min-content;
     justify-items: center;
+    min-width: 10rem;
 }
 
-.exit{
-    margin-top: 6px;
+
+#exit{
+    margin-top: 9px;
     display: grid;
-    color: white;
+    color: #313638;
     border: none;
     background-color: var(--background-list-price);
     border-radius: 3px;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2.7rem;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     font-family: var(--Home-Card-FontFamily);
+    text-shadow: 0px 0px 1px #31363886;
+}
+
+
+#exit:hover{
+    color: white;
+    background-color: #313638;
+}
+
+.img-delete{
+
+    background: #fff485;
+    width: 15px;
+    margin-left: 10px;
 }

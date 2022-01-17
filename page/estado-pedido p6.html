@@ -10,25 +10,30 @@
     <link rel="stylesheet" href="/css/estado-pedido.css">
     <title>Document</title>
 </head>
-<body>
+<body class="backgroundHome">
     <!-- aplico el header creado por emilio-->
-        <header>
-          <nav>
+    <header>
+        <nav class="cardNavbar">
+          <div >
             <Picture>
-              <img src="../assets/img/logo.jpg" alt="Logo" class="logo" />
+              <img src="../assets/img/Logo_DonRemolo.svg" alt="Logo" class="logo" />
             </Picture>
-            <div>Tu Pedido</div>
-          </nav>
-        </header>
+            <div class="titleNav">Su Pedido</div>
+          </div>
+        </nav>
+      </header>
         <div class="MarginTopNav"></div>
     <!-- div contenedor de todos los elementos-->
 
 <div class="products-container"> 
 <!-- listado de productos pedidos-->
     <div class="price-list"> 
-<div class="cantidad"> cantidad: </div> 
-<div class="detalle"> pizza de muzzarella chica</div>
-<div class="precio"> $1000</div>
+<div class="cantidad"> <p>cantidad:</p> </div> 
+<div class="detalle"> <p>pizza de muzzarella chica </p> </div>
+<div class="precio"> <p >$1000 </p></div>
+<div class="box-delete">
+  <a href="#" class="link-delete"><img src="/assets/img/eliminar logo.jpg" alt=" eliminar" class="img-delete"></a>
+</div>
     </div> <br> <br>
 <!-- precio total-->
 
@@ -41,14 +46,16 @@
 
 <!-- agregar producto-->
 <div class="box-conf"> 
-    <button class="confirm-product">Confirmar Pedido</button>
+    <a href="#" id="confirm-product">Agregar Productos</a>
+    
 </div>
 
 
-<!-- siguiente-->
+<!-- boton continuar-->
 
 <div class="box-exit">
-    <button class="exit"> Salir </button>
+    <a href="#" id="exit">Continuar</a>
+    
 </div>
 
 </div>
