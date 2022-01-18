@@ -50,18 +50,51 @@ a:-webkit-any-link {
 
 
 .contenido{
-  width: 50%;
-    float: left;
-    height: auto;
-  
-  
+    padding: var(--margen-horizontal);
+    max-width: var(--maxWidth-container);
+    margin: 0 auto; 
+    padding-left: 10%; 
+    
 }
 
+
+.nombre {
+  display: grid;
+  grid-template-rows: min-content min-content auto;
+  text-align: left;
+  overflow-wrap: break-word;
+  margin-left: 5%;
+}
+
+h2 {
+  /*font-size: 30px;
+  /*font-weight: 600;*/
+  color: var(--color-Negro);
+  margin-bottom: 6px;
+}
+
+p{
+font-size: 20px;
+}
+
+h4{
+  display: grid;
+  align-items: end;
+  justify-items: end;
+  margin-right: 0;
+  color: var(--color-Rojo);
+  font-weight: 800;
+  opacity: 0.8;
+  margin-top: 9%;
+  font-size: 30px;
+  
+}
 
 .cuadrado {
   margin-top: 30px ! important;
   padding: 20px;
-  margin:10px;
+  margin-left:150px;
+  margin-right: 150px;
   background-color: #f5eeeeef;
   border: solid 1px  #d4c6c6ef(255, 247, 247);
   color: black;
@@ -72,33 +105,37 @@ a:-webkit-any-link {
 
 
 /*Imagen de Muzarella */ 
-.Pizza-Muzzarella {
-  width: 40%;
-  height: 40%;
+.Pizza {
+  width: 100%;
+  height: 100%;
   
   /*width: 100%;
   text-align: center;
   margin-left: calc(var(--header-Nav-height) - (var(--header-Nav-height) * 2) + 1rem);*/
 }
 
+/*
 .contenido{
   width: 50%;
     float: left;
     height: auto;
-  
-  
+    margin: 0; 
 }
+*/
 
 .imagen{
   
-  width: 50%;
+  width: 15%;
     float: left;
     height: auto;
+    margin-right: 5%;
 }
 
 #clear {
   clear: both;
 }
+
+
 /*
   End - Reset CSS
 */
