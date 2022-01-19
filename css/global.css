@@ -135,6 +135,44 @@ h4{
   clear: both;
 }
 
+  .footer {  
+  height: var(--header-Nav-height);
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 20%);
+  backdrop-filter: blur(2px);
+  background: var(--background--Nav);
+  border-radius: 1rem;
+  margin: var(--margen-horizontal);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  
+}
+
+.fondoCarrito{
+background-color: #9b9393ef;
+display: flex;
+justify-content: center;
+  align-items: center;
+border-radius: 75%;
+width: 5%;
+height: auto;
+padding: 1%;
+
+}
+
+.carrito{
+  justify-content: center;
+  align-items: center;
+
+}
+
+.botonCarrito {
+  background-color: #9b9393ef;
+  border: 0px;
+
+}
+
 
 /*
   End - Reset CSS
