@@ -25,6 +25,9 @@ body>header>nav>div {
   background: var(--background--Nav);
   border-radius: 1rem;
   margin: var(--margen-horizontal);
+  text-align: center;
+
+ 
 }
 
 .logo {

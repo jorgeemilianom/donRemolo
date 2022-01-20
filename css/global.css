@@ -16,6 +16,8 @@
 /* 3. Estableciendo la minima altura de una caja a toda la pantalla */
 html, body {
   height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 /* 4. Mejora la representación del texto 
@@ -48,7 +50,65 @@ a:-webkit-any-link {
 /*8.Agregar cuadrado después del header hecho por Emilio */
 
 
+.producto-b-header{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
+
+}
+
+.producto-b-header div {
+  display: flex;
+  background-color: #FFF485;
+  align-items: center;
+  justify-content: center;
+  border-radius: 17px;
+  padding: 5px;
+  position: relative;;
+  width: 90%;
+  
+}
+
+.left {
+  position: absolute;
+  left: 10px;
+  font-size: 190%;
+}
+
+.n {
+  margin-right: 10px;
+}
+
+.bigote {
+  margin-left: 10px;
+}
+
+.navbar_icon {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  box-shadow: 0px 5px 10px hsla(0, 0%, 0%, 0.5);
+  border-radius: 10px;
+}
+
+.navbar_icon img {
+  padding: 7px;
+  transition:  background-color 1s;
+  border-radius: 10px;
+}
+
+@media (hover:hover) {
+  
+  .navbar_icon img:hover {
+      background-color: #EC3205;
+      border-radius: 10px;
+      transition:  background-color 1s;
+  }
+}
 .contenido{
     padding: var(--margen-horizontal);
     max-width: var(--maxWidth-container);
@@ -93,14 +153,18 @@ h4{
 .cuadrado {
   margin-top: 30px ! important;
   padding: 20px;
-  margin-left:150px;
-  margin-right: 150px;
+  /* margin-left: 150px; */
+  /* margin-right: 150px; */
   background-color: #f5eeeeef;
-  border: solid 1px  #d4c6c6ef(255, 247, 247);
+  border: solid 1px #d4c6c6ef(255, 247, 247);
   color: black;
-  border-radius: 5%;
-  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 30%)
+  border-radius: 20px;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 30%);
+  margin: var(--margen-horizontal);
+  
+  
 }
+
 
 
 
@@ -136,30 +200,43 @@ h4{
 }
 
   .footer {  
-  height: var(--header-Nav-height);
-  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 20%);
-  backdrop-filter: blur(2px);
-  background: var(--background--Nav);
-  border-radius: 1rem;
-  margin: var(--margen-horizontal);
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: relative;
+    height: var(--header-Nav-height);
+    backdrop-filter: blur(2px);
+    background: var(--background--Nav);
+    border-radius: 1rem;
+    /* margin: var(--margen-horizontal); */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  
   
 }
 
-.fondoCarrito{
-background-color: #9b9393ef;
+.fondoCarrito {
+background-color: #a7a2a1ef;
 display: flex;
 justify-content: center;
   align-items: center;
-border-radius: 75%;
-width: 5%;
+border-radius: 50%;
+width: 4%;
 height: auto;
 padding: 1%;
 
 }
+.fondoCarrito:hover {
+  background-color: #EC3205;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  border-radius: 50%;
+  width: 4%;
+  height: auto;
+  padding: 1%;
+  
+  }
 
 .carrito{
   justify-content: center;
@@ -168,11 +245,15 @@ padding: 1%;
 }
 
 .botonCarrito {
-  background-color: #9b9393ef;
+  background-color: #a7a2a1ef;
   border: 0px;
 
 }
+.botonCarrito:hover {
+  background-color: #EC3205;
+  border: 0px;
 
+}
 
 /*
   End - Reset CSS
