@@ -40,18 +40,23 @@
 
 
 > - El nombre asignado estará formado por caracteres alfanuméricos: a-z y 0-9.
-> - No debe contener caracteres no alfanuméricos, signos de puntuación, espacios en blanco, caracteres acentuados, eñes, etc.
-> - No esta permitido subrayado _ y o el guión –
+> - No debe contener **caracteres no alfanuméricos**, **signos de puntuación**, **espacios en blanco**, **caracteres acentuados**, **eñes**, etc.
+> - No esta permitido subrayado **_** y o el guión **–**
 
 > - **NOTA**: En caso de ser necesario nombrar un archivo con dos palabras compuestas ejemplo carta y categoria.
-> Se aplicara la convencion camelCase
-> Ejemplo: cartaCategoria.css
+> Se aplicara la convención **camelCase**
+> Ejemplo: **cartaCategoria.css**
 
 
 #
 
 ### 📚 Convención de nombrado de estilos css.
 
-> La convencion adoptada en el proyecto para el nombrado de clases css el la **Metodología** [**BEM**](http://getbem.com/introduction/)
+> La convención adoptada en el proyecto para el nombrado de clases css el la **Metodología** [**BEM**](http://getbem.com/introduction/)
+
+Ejemplo
+![image](https://api-donremolo.vercel.app/bemExample.png)
+
+
 
 > Si desea saber más sobre convenciones de nombrado de estilos de CSS, dirigirse [aquí](https://celsiusaray.notion.site/Convenciones-aplicadas-a-nombre-de-clases-en-CSS-BEM-OOCSS-SMACSS-f8c647e576624fd1b220a9789a79645a)
