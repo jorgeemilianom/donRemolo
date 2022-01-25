@@ -13,7 +13,7 @@
 
 > 💡 Vas a trabajar en un **nuevo componente** o un **new feature?**
 >
->// Se debe de iniciar una nueva rama con un nombre simple que se deberia colocar posteriermente en trello como CARD NUMBER
+>// Se debe de iniciar una nueva rama con un nombre simple que se deberia colocar posteriermente en el dashboard [trello](https://trello.com/b/s4jw20vH/proyects-4-experience) como CARD NUMBER
 >
 
 
