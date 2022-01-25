@@ -1,10 +1,68 @@
-# Team FrontEnd Developer # 87 ideas
+![image](https://api-donremolo.vercel.app/donRemoloLogo.svg)
+# Team FrontEnd Developer # 87 idforideas
+
+## Desarrollo de la idea #3
+
+> 💡 Leer documentación de los requisitos del proyecto #3 [aqui](https://api-donremolo.vercel.app/descripcionIdea3.pdf)
 
 >Seguir métodos en el desarrollo de proyectos que impliquen el uso de CSS, con el objeto de que sea entendible y escalable el código y el proyecto para todos los involucrados (existentes o por incorporarse).  Tanto para el nombramiento de sus archivos, así como el nombramiento y estructura de los componentes y las clases.
-> 
->Es necesarios aplicar o desarrollar **convenciones** . 
+>
+>Es necesarios aplicar o desarrollar **convenciones** .
 
-### 📚 Convención de estructura de archivos.
+## 📚 Convención para trabajar en git en nuevos componentes.
+
+> 💡 Vas a trabajar en un **nuevo componente** o un **new feature?**
+>
+>// Se debe de iniciar una nueva rama con un nombre simple que se deberia colocar posteriermente en trello como CARD NUMBER
+>
+
+
+>1. Debes de crear una nueva rama que emerge de la rama **frontend**.
+> Ejemplo de Sintaxis.  
+> git checkout -b nombreDeLaRamaFeature RamaDeDondeEmerge
+
+Ejemplo de Comando
+~~~
+git checkout -b pagePedido frontend
+~~~
+
+>2. Trabaja en tu rama libremente generando los push necesarios.
+>  Una vez de culminado tus feature. 
+> Y **antes** de incorporarlo a la rama **frontend**.
+> Asegurate de que no dará problemas al implementarlo.
+>
+>Esto se logra actualizando tu rama con el estado actual de la rama principal, que en nuesto caso es la rama **frontend**
+>
+> Ejecutan el comando git rebase 
+> Ejemplo de Sintaxis.
+> git rebase **nombreDeLaRamaDesdeDondeDeseasActualizar**
+> Recuerda que debes estar en la rama de tu feature.
+
+~~~
+git rebase frontend
+~~~
+
+>3. Estando todo como es deseado. Se pasara a implementar tu componente o feature a la rama **frontend**. 
+>
+>**Esto se logra realizando los siguientes pasos.**
+
+>3.1. Cambia a la rama donde se va a implementar el nuevo componente o feature. 
+~~~
+git checkout frontend
+~~~
+
+>3.2. Fusiona la rama del componente creado a la rama frontend
+>Ejemplo de Sintaxis.
+> git merge **nombreDeLaRamaFeature**
+~~~
+git merge pagePedido
+~~~
+
+> 💡 Deseas saber mas de comandos de [**git y en español**](https://www.atlassian.com/es/git/tutorials/learn-git-with-bitbucket-cloud)
+>
+
+
+## 📚 Convención de estructura de archivos.
 
 
 ~~~
@@ -31,7 +89,7 @@
 │   ├── bebidas.html
 │   ├── postres.html
 │   ├── orden.html
-└── 
+└──
 ~~~
 
 #
