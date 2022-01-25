@@ -5,5 +5,11 @@
   --header-Nav-height: 60px;
 
   /* Variable de Color de fondo Navbar */
-  --background--Nav: rgba(187, 132, 132, 0.274)
+  --background--Nav: rgba(187, 132, 132, 0.274);
+
+  /* Variable de Fuentes en Home Cards  */
+  --Home-Card-fontFamily: OpenSans
+
+/* variable para fondo en listas de precios*/
+--background-list-price: #ec3305c4;
 }

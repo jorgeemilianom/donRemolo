@@ -1,8 +1,9 @@
 /* Estilo del Componente Navbar*/
 header {
- 
+  position: fixed;
+  /* Necesario para que sea flotante la barra del Nav*/
   top: 0px;
-  position:relative;
+  z-index: 1;
 }
 
 nav {
@@ -28,7 +29,12 @@ picture+div {
   margin-left: calc(var(--header-Nav-height) - (var(--header-Nav-height) * 2) + 1rem);
 }
 
-.MarginTopNav {
+/* .MarginTopNav {
+<<<<<<< HEAD
   margin-bottom: var(--header-Nav-height);
 }
 
+=======
+  margin-bottom: calc(var(--header-Nav-height) + 1rem);
+}
+>>>>>>> UI-/-UX */

@@ -1,0 +1,94 @@
+@media only screen and (min-width:1024px) {
+    .products-container {
+
+        margin: 0 auto !important;
+
+    }
+
+}
+
+
+
+.products-container {
+
+    /* color*/
+    background: var(--background-list-price);
+
+    /* tamaños y margenes*/
+    max-width: 800px;
+    display: grid;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0rem 1rem;
+
+    /*bordes */
+
+    border-radius: 5px;
+    border-bottom: 2px solid #5e5d5dd0;
+    border-top: 1px solid #5e5d5dd0;
+}
+
+
+.price-list {
+
+    background-color: #f9f9f9;
+    border: solid 1px #d4c6c6ef(255, 247, 247);
+    display: grid;
+    grid-template-columns: min-content auto max-content;
+
+    padding: 10px 10px 10px 10px;
+    color: black;
+    border-radius: 4px;
+
+}
+
+.cantidad {
+    text-align: center;
+    padding: 0px;
+
+}
+
+.detalle {
+    text-align: center;
+    padding: 0px;
+
+}
+
+.precio {
+    text-align: center;
+    padding: 0px;
+}
+
+
+.padre-price {
+    display: grid;
+    grid-template-columns: auto max-content;
+    justify-items: end;
+}
+
+
+
+.total {
+    display: grid;
+    min-width: 10rem;
+    text-align: center;
+    background-color: #313638;
+    padding: 0.5rem;
+    border-radius: 4px;
+    color: white;
+    font-size: 19px;
+    align-items: center
+}
+
+.total-price {
+
+    display: grid;
+    text-align: center;
+    background-color: #313638;
+    color: white;
+    padding: 0rem 1rem;
+    border-radius: 4px;
+    align-items: center;
+    margin-left: 1rem;
+
+}
