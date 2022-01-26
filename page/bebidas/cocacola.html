@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<!-- ISO 639-1 Language Codes -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/candidate/global.css" />
+    <link rel="stylesheet" href="../../assets/css/candidate/theme.css" />
+    <link rel="stylesheet" href="../../assets/css/candidate/navbar.css" />
+    <link rel="stylesheet" href="../../assets/css/candidate/cardDetails.css" />
+
+    <link rel="icon" type="image/png" href="../../assets/img/Logo_DonRemolo_png.png" />
+    <title>Don Remolo | Bebida Coca Cola</title>
+</head>
+
+<body>
+    <!--
+/**
+**  <Inicio de Seccion de Header and Navbar>
+**
+-->
+    <header class="containerNavbar">
+        <nav>
+            <div class="navbar__grid">
+                <div class="navbar__first">
+                    <div class="navbar__buttonGrid ">
+                        <a href="/" class="navbar__buttonBack">
+                            <img src="/assets/img/iconNav/returnAarrow.svg" alt="Buttom Back" width="30px"
+                                height="30px" />
+                        </a>
+                    </div>
+
+                    <div class="navbar__rowLogo">
+                        <a href="/page/1index.html" class="navbar__inline">
+                            <img src="/assets/img/iconNav/letterLogo.svg" alt="Buttom Back" width="103.25px"
+                                height="22.38px" />
+                            <img src="/assets/img/iconNav/moustacheLogo.svg" alt="Buttom Back" width="60.03px"
+                                height="18.74px" />
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navbar__grid">
+                <div class="navbar__secondCardNav">
+                    <h1 class="navbar__title none">Nuestro Menú</h1>
+
+                    <div class="navbar__secondGridNav">
+                        <a href="/page/pizzas/2pizzas.html " class="navbar--linkIcon ">
+                            <div class="navbar__iconGrid">
+                                <img src="/assets/img/iconNav/iconPizza.svg" alt="" width={38} height={38}
+                                    class="navbar__iconSvg" />
+                            </div>
+                        </a>
+
+                        <a href="/page/empanadas/3empanadas.html " class="navbar--linkIcon">
+                            <div class="navbar__iconGrid">
+                                <img src="/assets/img/iconNav/iconEmpanada.svg" alt="" width={38} height={38}
+                                    class="navbar__iconSvg" />
+                            </div>
+                        </a>
+
+                        <a href="/page/bebidas/4bebidas.html " class="navbar--linkIcon navbar--active">
+                            <div class="navbar__iconGrid">
+                                <img src="/assets/img/iconNav/iconBebidas.svg" alt="" width={38} height={38}
+                                    class="navbar__iconSvg navbar__iconSvg--active" />
+                            </div>
+                        </a>
+
+                        <a href="/page/postres/5postres.html " class="navbar--linkIcon">
+                            <div class="navbar__iconGrid">
+                                <img src="/assets/img/iconNav/iconHelado.svg" alt="" width={38} height={38}
+                                    class="navbar__iconSvg" />
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+        </nav>
+    </header>
+    <div class="marginTopNav" />
+
+    <!--
+/**
+**  <Fin de Seccion de Header and Navbar>
+**
+-->
+
+    <main>
+    <section class="containerCardDescription">
+    
+        <article class="cardDescription">
+            <div class="cardDescription__title">
+                <h1 class="cardDescription__h1">Coca Cola</h1>
+            </div>
+            <div class="cardDescription__descriptionGrid">
+                <picture class="cardDescription__picture">
+                    <img src="/assets/img/bebidas/bebidasCocaCola.png" alt={`${altImagen}`} width={100} height={100} />
+                </picture>
+                <div class="cardDescription_rowGrid">
+                    <div class="cardDescription_details">Común | Zero</div>
+                </div>
+                <div class="Dporciones DmarginTop">200 Litros</div>
+                <div class="price marginTop">$ 80</div>
+            </div>
+            <div class="cardDescription__gridForm">
+                <div style="font-size:14px;">Cantidad</div>
+                <form>
+                    <input class="cardDescription__input" id="cantidad" type="number" name="cantidad" min="1"
+                        max="10"></input>
+                </form>
+                <span style="text-align: right; margin-right: 0.5rem">$</span>
+                <span class="cardDescription__total">80</span>
+            </div>
+            <div style="padding: 0px 1.93rem">
+                <button class="cardDescription_button">Agregar al Pedido</button>
+            </div>
+        </article>
+    
+    
+    </section>
+        <div style="height:3rem;"></div>
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+</body>
