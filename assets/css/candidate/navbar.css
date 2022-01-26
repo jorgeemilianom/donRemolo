@@ -1,0 +1,116 @@
+      .hide {
+          visibility: hidden;
+      }
+      
+      .none {
+          display: none !important;
+      }
+      
+      .containerNavbar {
+          position: fixed;
+          /* Necesario para que sea flotante la barra del Nav*/
+          z-index: 1;
+          width: 100%;
+          padding: var(--margen-horizontal);
+      }
+      
+      .navbar__grid {
+          display: grid;
+          align-items: center;
+          margin: 0 auto;
+          margin-top: 0.5rem;
+          max-width: var(--maxWidth-container);
+      }
+      
+      .navbar__first {
+          display: grid;
+          grid-template-columns: max-content auto;
+          height: var(--header-Nav-height);
+          /* box-shadow: 0 2px 12px 0 rgb(0 0 0 / 20%); */
+          backdrop-filter: blur(2px);
+          background: var(--brandColorYellow);
+          border-radius: 17px;
+          height: 3rem;
+      }
+      
+      .navbar__buttonGrid {
+          display: grid;
+          height: 100%;
+          align-items: center;
+          padding: 0 1rem;
+      }
+      
+      .navbar__buttonBack {
+          display: grid;
+          align-items: center;
+          background-color: transparent;
+          backdrop-filter: blur(2px);
+          padding: 0 0.3rem 0 0rem;
+          width: 2rem;
+          height: 2rem;
+          border-radius: 2rem;
+      }
+      
+      .navbar__rowLogo {
+          display: grid;
+          grid-template-columns: auto;
+          justify-content: center;
+          align-items: center;
+          padding-right: 3.5rem;
+      }
+      
+      .navbar__secondCardNav {
+          box-shadow: 0 2px 12px 0 rgb(0 0 0 / 20%);
+          backdrop-filter: blur(2px);
+          background: var(--background--Nav);
+          border-radius: 1rem;
+          height: 67px;
+      }
+      
+      .navbar__secondGridNav {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          justify-content: center;
+          justify-items: center;
+          align-items: center;
+          height: 100%;
+      }
+      
+      .navbar__title {
+          display: grid;
+          grid-template-columns: auto;
+          height: 100%;
+          justify-content: center;
+          align-items: center;
+          margin-block-start: 0em;
+          margin-block-end: 0em;
+      }
+      
+      .navbar_iconGrid {
+          display: grid;
+          align-items: center;
+          justify-items: center;
+          border-radius: 5px;
+          width: 60px;
+          height: 60px;
+      }
+      
+      .navbar--linkIcon:hover {
+          background-color: var(--brandColorRed);
+          border-radius: 10px;
+      }
+      
+      .navbar--padding {
+          padding-right: 3px;
+      }
+      
+      .marginTopNav {
+          padding-top: calc(var(--header-Nav-height) + 5.2rem);
+      }
+      
+      @media (max-width: 768px) and (orientation: landscape) {
+          /** Ocultar Primera Barra en dispositivos smalls **/
+          .navbar__first {
+              display: none !important;
+          }
+      }

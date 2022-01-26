@@ -1,0 +1,34 @@
+/*******************************************
+**********   Start Theme var   *************
+********************************************/
+
+
+/**
+** fijar en Variables Globales todo lo concerniente
+** a theme.
+*/
+
+:root {
+    /* Variable de altura del Header*/
+    --header-Nav-height: 60px;
+    /* Variable de Color de fondo Navbar */
+    --background--Nav: rgba(255, 255, 255, 0.5);
+    /* Variable size with logo */
+    --size-With-Logo: 6.438rem;
+    /* Margen horizontal de componentes */
+    --margen-horizontal: 0rem 1rem;
+    /* Variable de Fuentes en Home Cards  */
+    --Home-Card-fontFamily: OpenSans;
+    /* Variable Color de Cartas */
+    --brandColorWhite: #fff;
+    --brandColorBlack: #313638;
+    --brandColorRed: #EC3205;
+    --brandColorYellow: #FFF485;
+    /* Variable max width de Contenedores */
+    --maxWidth-container: 1128px;
+}
+
+
+/*******************************************
+************   End Theme var   *************
+********************************************/
