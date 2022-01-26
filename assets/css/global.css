@@ -2,23 +2,34 @@
   Reset CSS
 */
 
+
 /* 1. box-sizing model. */
-*, *::before, *::after {
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
+
 /* 2. Eliminar margen predeterminado de los browser */
-* {
+
+html,
+body {
   margin: 0px;
   padding: 0px;
 }
 
+
 /* 3. Estableciendo la minima altura de una caja a toda la pantalla */
-html, body {
+
+html,
+body {
   height: 100%;
   align-items: center;
   justify-content: center;
 }
+
 
 /* 4. Mejora la representación del texto 
 4.1 Definiendo OpenSans como fuente predeterminada*/
@@ -28,16 +39,31 @@ body {
   font-family: OpenSans;
 }
 
+
 /* 5. Mejorar los valores predeterminados de los medios */
-img, picture, video, canvas, svg {
+
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
 
+
 /* 6. Evitar los desbordamientos de texto */
-p, h1, h2, h3, h4, h5, h6 {
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
+
 
 /*7. Quitando Estilos de los textos de links  */
 
@@ -49,15 +75,12 @@ a:-webkit-any-link {
 
 /*8.Agregar cuadrado después del header hecho por Emilio */
 
-
-.producto-b-header{
+.producto-b-header {
   width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-
 }
 
 .producto-b-header div {
@@ -67,9 +90,9 @@ a:-webkit-any-link {
   justify-content: center;
   border-radius: 17px;
   padding: 5px;
-  position: relative;;
+  position: relative;
+  ;
   width: 90%;
-  
 }
 
 .left {
@@ -130,26 +153,24 @@ padding-top: 10px;
 
 .navbar_icon img {
   padding: 7px;
-  transition:  background-color 1s;
+  transition: background-color 1s;
   border-radius: 10px;
 }
 
 @media (hover:hover) {
-  
   .navbar_icon img:hover {
-      background-color: #EC3205;
-      border-radius: 10px;
-      transition:  background-color 1s;
+    background-color: #EC3205;
+    border-radius: 10px;
+    transition: background-color 1s;
   }
 }
-.contenido{
-    padding: var(--margen-horizontal);
-    max-width: var(--maxWidth-container);
-    margin: 0 auto; 
-    padding-left: 10%; 
-    
-}
 
+.contenido {
+  padding: var(--margen-horizontal);
+  max-width: var(--maxWidth-container);
+  margin: 0 auto;
+  padding-left: 10%;
+}
 
 .nombre {
   display: grid;
@@ -166,11 +187,11 @@ h2 {
   margin-bottom: 6px;
 }
 
-p{
-font-size: 20px;
+p {
+  font-size: 20px;
 }
 
-h4{
+h4 {
   display: grid;
   align-items: end;
   justify-items: end;
@@ -180,7 +201,6 @@ h4{
   opacity: 0.8;
   margin-top: 9%;
   font-size: 30px;
-  
 }
 
 .cuadrado {
@@ -194,22 +214,19 @@ h4{
   border-radius: 20px;
   box-shadow: 0 2px 12px 0 rgb(0 0 0 / 30%);
   margin: var(--margen-horizontal);
-  
-  
 }
 
 
+/*Imagen de Muzarella */
 
-
-/*Imagen de Muzarella */ 
 .Pizza {
   width: 100%;
   height: 100%;
-  
   /*width: 100%;
   text-align: center;
   margin-left: calc(var(--header-Nav-height) - (var(--header-Nav-height) * 2) + 1rem);*/
 }
+
 
 /*
 .contenido{
@@ -220,72 +237,66 @@ h4{
 }
 */
 
-.imagen{
-  
+.imagen {
   width: 15%;
-    float: left;
-    height: auto;
-    margin-right: 5%;
+  float: left;
+  height: auto;
+  margin-right: 5%;
 }
 
 #clear {
   clear: both;
 }
 
-  .footer {  
-    height: var(--header-Nav-height);
-    backdrop-filter: blur(2px);
-    background: var(--background--Nav);
-    border-radius: 1rem;
-    /* margin: var(--margen-horizontal); */
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  
-  
+.footer {
+  height: var(--header-Nav-height);
+  backdrop-filter: blur(2px);
+  background: var(--background--Nav);
+  border-radius: 1rem;
+  /* margin: var(--margen-horizontal); */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .fondoCarrito {
-background-color: #a7a2a1ef;
-display: flex;
-justify-content: center;
-  align-items: center;
-border-radius: 50%;
-width: 4%;
-height: auto;
-padding: 1%;
-
-}
-.fondoCarrito:hover {
-  background-color: #EC3205;
+  background-color: #a7a2a1ef;
   display: flex;
   justify-content: center;
-    align-items: center;
+  align-items: center;
   border-radius: 50%;
   width: 4%;
   height: auto;
   padding: 1%;
-  
-  }
+}
 
-.carrito{
+.fondoCarrito:hover {
+  background-color: #EC3205;
+  display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
+  width: 4%;
+  height: auto;
+  padding: 1%;
+}
 
+.carrito {
+  justify-content: center;
+  align-items: center;
 }
 
 .botonCarrito {
   background-color: #a7a2a1ef;
   border: 0px;
-
 }
+
 .botonCarrito:hover {
   background-color: #EC3205;
   border: 0px;
-
 }
 
 td{
@@ -299,10 +310,10 @@ td{
   End - Reset CSS
 */
 
+
 /* fonts */
 
 @font-face {
   font-family: OpenSans;
-  src: url(../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
-
+  src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
