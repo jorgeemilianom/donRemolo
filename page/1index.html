@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../assets/css/candidate/theme.css" />
     <link rel="stylesheet" href="../assets/css/candidate/navbar.css" />
     <link rel="stylesheet" href="../assets/css/candidate/cardCategories.css" />
+    <link rel="stylesheet" href="../assets/css/candidate/sloganFooter.css" />
     <link rel="icon" type="image/png" href="../assets/img/Logo_DonRemolo_png.png" />
     <title>Don Remolo</title>
 </head>
@@ -25,37 +26,33 @@
             <div class="navbar__grid">
                 <div class="navbar__first">
                     <div class="navbar__buttonGrid ">
-                        <a href="/" class="navbar__buttonBack">
-                            <img src="../assets/img/iconNav/returnAarrow.svg" alt="Buttom Back" width="40px" height="40px" />
+                        <a href="/" class="navbar__buttonBack hide">
+                            <img src="../assets/img/iconNav/returnAarrow.svg" alt="Buttom Back" width="40px"
+                                height="40px" />
                         </a>
                     </div>
 
                     <div class="navbar__rowLogo">
-
-                        <a href="/">
-                            <picture>
-                                <img src="../assets/img/iconNav/letterLogo.svg" alt="Buttom Back" width="103.25px" height="22.38px" />
-                            </picture>
-                            <picture>
-                                <img src="../assets/img/iconNav/moustacheLogo.svg" alt="Buttom Back" width="60.03px" height="18.74px" />
-                            </picture>
+                        <a href="/" class="navbar__inline">
+                            <img src="../assets/img/iconNav/letterLogo.svg" alt="Buttom Back" width="103.25px"
+                                height="22.38px" />
+                            <img src="../assets/img/iconNav/moustacheLogo.svg" alt="Buttom Back" width="60.03px"
+                                height="18.74px" />
                         </a>
-
                     </div>
+
                 </div>
             </div>
+
             <div class="navbar__grid">
                 <div class="navbar__secondCardNav">
-                    <h1 class="navbar__title">{title}</h1>
-
+                    <h1 class="navbar__title">Nuestro Menú</h1>
                 </div>
             </div>
 
         </nav>
     </header>
     <div class="marginTopNav" />
-
-
 
     <!--
 /**
@@ -65,9 +62,63 @@
 
     <main>
 
+        <section class="containerCardCategories">
+            <div class="cardCategories__grid">
+                <a href="/">
+                    <div class="cardCategories">
+                        <div class="cardCategories--effectTranslateY">
+                            <picture class="cardCategories__imgGrid">
+                                <img src="/assets/img/categoriaPizzas.png" alt=""/>
+                            </picture>
+                            <h2 class="cardCategories__title">Pizzas</h2>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/">
+                    <div class="cardCategories">
+                        <div class="cardCategories--effectTranslateY">
+                            <picture class="cardCategories__imgGrid">
+                                <img src="/assets/img/categoriaEmpanadas.png" alt="" />
+                            </picture>
+                            <h2 class="cardCategories__title">Empanadas</h2>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/">
+                    <div class="cardCategories">
+                        <div class="cardCategories--effectTranslateY">
+                            <picture class="cardCategories__imgGrid">
+                                <img src="/assets/img/categoriaBebidas.png" alt="" />
+                            </picture>
+                            <h2 class="cardCategories__title">Bebidas</h2>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/">
+                    <div class="cardCategories">
+                        <div class="cardCategories--effectTranslateY">
+                            <picture class="cardCategories__imgGrid">
+                                <img src="/assets/img/categoriaPostres.png" alt="" />
+                            </picture>
+                            <h2 class="cardCategories__title">Postres</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </section>
+
     </main>
 
     <footer>
+        <div class="containerSloganFooter">
+            <picture class="sloganFooter__img">
+                <img src="/assets/img/slogan.svg" alt="Logo" class="sloganFooter__imgElement" />
+            </picture>
+        </div>
 
     </footer>
 </body>

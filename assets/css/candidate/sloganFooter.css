@@ -1,0 +1,33 @@
+        .containerSloganFooter {
+          margin: var(--margen-horizontal);
+          display: grid;
+          justify-items: center;
+        }
+ 
+        .grid {
+          display: grid;
+        }
+        .sloganFooter__img {
+          position: absolute;
+          bottom: 0.8rem;
+          display: block;
+          max-width: 24rem;
+          margin: 0 auto;
+        }
+        .sloganFooter__imgElement {
+          width: calc(100vw - 1rem);
+        }
+
+        @media only screen and (min-width: 820px) {
+          .sloganFooter__img  {
+            right: 2rem;
+          }
+        }
+        @media (max-width: 768px) and (orientation: landscape) {
+          .sloganFooter__img  {
+            right: 2rem;
+          }
+          .sloganFooter__img  {
+            bottom: 0rem;
+          }
+        }

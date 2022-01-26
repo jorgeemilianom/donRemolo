@@ -46,8 +46,6 @@
           background-color: transparent;
           backdrop-filter: blur(2px);
           padding: 0 0.3rem 0 0rem;
-          width: 2rem;
-          height: 2rem;
           border-radius: 2rem;
       }
       
@@ -57,6 +55,11 @@
           justify-content: center;
           align-items: center;
           padding-right: 3.5rem;
+      }
+      
+      .navbar__inline {
+          display: flex;
+          align-items: center;
       }
       
       .navbar__secondCardNav {

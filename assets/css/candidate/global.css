@@ -82,7 +82,7 @@ a:-webkit-any-link {
 
 @font-face {
     font-family: OpenSans;
-    src: url(../public/assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
+    src: url(/assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
 }
 
 
