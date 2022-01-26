@@ -89,7 +89,7 @@
           margin-block-end: 0em;
       }
       
-      .navbar_iconGrid {
+      .navbar__iconGrid {
           display: grid;
           align-items: center;
           justify-items: center;
@@ -98,10 +98,25 @@
           height: 60px;
       }
       
-      .navbar--linkIcon:hover {
+      .navbar--linkIcon:active {
           background-color: var(--brandColorRed);
           border-radius: 10px;
       }
+
+      .navbar--active {
+          background-color: var(--brandColorRed);
+          border-radius: 10px;
+      }
+
+      .navbar--linkIcon:active .navbar__iconGrid > .navbar__iconSvg {
+          filter: invert(1);
+      }
+
+     .navbar--active .navbar__iconGrid > .navbar__iconSvg--active {
+          filter: invert(1);
+      }
+
+
       
       .navbar--padding {
           padding-right: 3px;
