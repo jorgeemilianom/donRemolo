@@ -24,6 +24,8 @@
     --brandColorBlack: #313638;
     --brandColorRed: #EC3205;
     --brandColorYellow: #FFF485;
+    --brandColorGrey1: #BDBDBD;
+    --brandColorGrey2: #C4C4C4;
     /* Variable max width de Contenedores */
     --maxWidth-container: 1128px;
 }

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/assets/css/candidate/cardCategories.css" />
     <link rel="stylesheet" href="/assets/css/candidate/shoppingCart.css" />
     <link rel="stylesheet" href="/assets/css/candidate/cardOrder.css" />
+    <link rel="stylesheet" href="/assets/css/candidate/cardButtonShop.css" />
     <link rel="icon" type="image/png" href="../assets/img/Logo_DonRemolo_png.png" />
     <title>Don Remolo</title>
 </head>
@@ -28,7 +29,8 @@
                 <div class="navbar__first">
                     <div class="navbar__buttonGrid ">
                         <a href="/" class="navbar__buttonBack">
-                            <img src="../assets/img/icons/returnAarrow.svg" alt="Buttom Back" class="navbar__buttonBack__img" />
+                            <img src="../assets/img/icons/returnAarrow.svg" alt="Buttom Back"
+                                class="navbar__buttonBack__img" />
                         </a>
                     </div>
 
@@ -67,9 +69,34 @@
                     <div class="cardOrder__title">Cant.</div>
                     <div class="cardOrder__title">Productos</div>
                     <div class="cardOrder__title--2block">Precio $</div>
+                    <!-- Inicio de Listado-->
 
                     <div class="cardOrder__units">1</div>
                     <div class="cardOrder__units--description">Empanada de Carne</div>
+                    <div class="cardOrder__units--price">$650</div>
+                    <a href="">
+                        <picture class="cardOrder__units--trash">
+                            <img src="/assets/img/icons/iconTrash.svg" alt="">
+                    </a>
+                    </picture>
+
+                    <!-- Bucle -->
+                    <div class="cardOrder__units">2</div>
+                    <div class="cardOrder__units--description">Empanada de Carne</div>
+                    <div class="cardOrder__units--price">$650</div>
+                    <a href="">
+                        <picture class="cardOrder__units--trash">
+                            <img src="/assets/img/icons/iconTrash.svg" alt="">
+                    </a>
+                    </picture>
+                    
+
+
+                </div>
+
+                <div class="cardOrder__totalGrid">
+                    <div class="cardOrder__totalGrid--tittle">Total $</div>
+                    <div class="cardOrder__totalGrid--total">12345</div>
                 </div>
 
             </div>
@@ -80,18 +107,16 @@
 
     </main>
 
-    <footer>
-        <div class="shoppimgCart">
-            <div class="shoppimgCart__grid">
-                <a href="/page/2pedido.html">
-                    <picture class="shoppimgCart__picture">
-                        <img src="/assets/img/icons/shoppingCart.svg" alt="" class="shoppimgCart__img" />
-                    </picture>
-                    <div class="shoppingimgCart__badgeGrid">
-                        <span class="shoppimgCart__badgeGrid--number">1</span>
-                    </div>
-                </a>
+    <footer class="buttonFloat">
+        <div class="buttonShop">
+            <div class="buttonShop__card">
+                <div class="buttonShop__card__grid">
+                    <button class="buttonShop__primary br">Agregar más Productos</button>
+                    <button class="buttonShop__cancel br">Cancelar</button>
+                    <button class="buttonShop__buy br">Continuar</button>
+                </div>
             </div>
         </div>
+
     </footer>
 </body>
