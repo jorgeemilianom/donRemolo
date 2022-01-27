@@ -18,8 +18,9 @@
 .buttonShop__card {
   box-shadow: 0 2px 12px 0 rgb(0 0 0 / 20%);
   border-radius: 0.625rem;
-  background-color: var(--brandColorWhite);
+  background-color: #ffffff4d;
   height: fit-content;
+  backdrop-filter: blur(3px);
   padding: 12px;
 }
 
