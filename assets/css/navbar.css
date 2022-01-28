@@ -102,6 +102,20 @@
           width: 60px;
           height: 60px;
       }
+
+      @media (hover:hover) {
+    
+    .navbar--linkIcon:hover {
+          background-color: var(--brandColorRed);
+          border-radius: 10px;
+          transition:  background-color 0.5s;
+      }
+      .navbar--linkIcon:hover .navbar__iconGrid > .navbar__iconSvg {
+          filter: invert(1);
+          transition:  background-color 0.5s;
+      }
+}
+
       
       .navbar--linkIcon:active {
           background-color: var(--brandColorRed);
