@@ -1,0 +1,280 @@
+/*
+  Reset CSS
+*/
+
+
+/* 1. box-sizing model. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* 2. Eliminar margen predeterminado de los browser */
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* 3. Estableciendo la minima altura de una caja a toda la pantalla */
+
+html,
+body {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* 4. Mejora la representación del texto 
+4.1 Definiendo OpenSans como fuente predeterminada*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: OpenSans;
+}
+
+
+/* 5. Mejorar los valores predeterminados de los medios */
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+
+/* 6. Evitar los desbordamientos de texto */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+
+/*7. Quitando Estilos de los textos de links  */
+
+a:-webkit-any-link {
+  color: unset;
+  text-decoration: none;
+}
+
+
+/*8.Agregar cuadrado después del header hecho por Emilio */
+
+.producto-b-header {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.producto-b-header div {
+  display: flex;
+  background-color: #FFF485;
+  align-items: center;
+  justify-content: center;
+  border-radius: 17px;
+  padding: 5px;
+  position: relative;
+  ;
+  width: 90%;
+}
+
+.left {
+  position: absolute;
+  left: 10px;
+  font-size: 190%;
+}
+
+.n {
+  margin-right: 10px;
+}
+
+.bigote {
+  margin-left: 10px;
+}
+
+.navbar_icon {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  box-shadow: 0px 5px 10px hsla(0, 0%, 0%, 0.5);
+  border-radius: 10px;
+}
+
+.navbar_icon img {
+  padding: 7px;
+  transition: background-color 1s;
+  border-radius: 10px;
+}
+
+@media (hover:hover) {
+  .navbar_icon img:hover {
+    background-color: #EC3205;
+    border-radius: 10px;
+    transition: background-color 1s;
+  }
+}
+
+.contenido {
+  padding: var(--margen-horizontal);
+  max-width: var(--maxWidth-container);
+  margin: 0 auto;
+  padding-left: 10%;
+}
+
+.nombre {
+  display: grid;
+  grid-template-rows: min-content min-content auto;
+  text-align: left;
+  overflow-wrap: break-word;
+  margin-left: 5%;
+}
+
+h2 {
+  /*font-size: 30px;
+  /*font-weight: 600;*/
+  color: var(--color-Negro);
+  margin-bottom: 6px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h4 {
+  display: grid;
+  align-items: end;
+  justify-items: end;
+  margin-right: 0;
+  color: var(--color-Rojo);
+  font-weight: 800;
+  opacity: 0.8;
+  margin-top: 9%;
+  font-size: 30px;
+}
+
+.cuadrado {
+  margin-top: 30px ! important;
+  padding: 20px;
+  /* margin-left: 150px; */
+  /* margin-right: 150px; */
+  background-color: #f5eeeeef;
+  border: solid 1px #d4c6c6ef(255, 247, 247);
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 30%);
+  margin: var(--margen-horizontal);
+}
+
+
+/*Imagen de Muzarella */
+
+.Pizza {
+  width: 100%;
+  height: 100%;
+  /*width: 100%;
+  text-align: center;
+  margin-left: calc(var(--header-Nav-height) - (var(--header-Nav-height) * 2) + 1rem);*/
+}
+
+
+/*
+.contenido{
+  width: 50%;
+    float: left;
+    height: auto;
+    margin: 0; 
+}
+*/
+
+.imagen {
+  width: 15%;
+  float: left;
+  height: auto;
+  margin-right: 5%;
+}
+
+#clear {
+  clear: both;
+}
+
+.footer {
+  height: var(--header-Nav-height);
+  backdrop-filter: blur(2px);
+  background: var(--background--Nav);
+  border-radius: 1rem;
+  /* margin: var(--margen-horizontal); */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.fondoCarrito {
+  background-color: #a7a2a1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 4%;
+  height: auto;
+  padding: 1%;
+}
+
+.fondoCarrito:hover {
+  background-color: #EC3205;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 4%;
+  height: auto;
+  padding: 1%;
+}
+
+.carrito {
+  justify-content: center;
+  align-items: center;
+}
+
+.botonCarrito {
+  background-color: #a7a2a1ef;
+  border: 0px;
+}
+
+.botonCarrito:hover {
+  background-color: #EC3205;
+  border: 0px;
+}
+
+
+/*
+  End - Reset CSS
+*/
+
+
+/* fonts */
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
