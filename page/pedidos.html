@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<!-- ISO 639-1 Language Codes -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets/css/theme.css" />
+    <link rel="stylesheet" href="/assets/css/navbar.css" />
+    <link rel="stylesheet" href="/assets/css/cardCategories.css" />
+    <link rel="stylesheet" href="/assets/css/shoppingCart.css" />
+    <link rel="stylesheet" href="/assets/css/cardOrder.css" />
+    <link rel="stylesheet" href="/assets/css/cardButtonShop.css" />
+    <link rel="icon" type="image/png" href="../assets/img/Logo_DonRemolo_png.png" />
+    <title>Don Remolo</title>
+</head>
+
+<body>
+    <!--
+/**
+**  <Inicio de Seccion de Header and Navbar>
+**
+-->
+    <header class="containerNavbar">
+        <nav>
+            <div class="navbar__grid">
+                <div class="navbar__first">
+                    <div class="navbar__buttonGrid ">
+                        <a href="/" class="navbar__buttonBack">
+                            <img src="../assets/img/icons/returnAarrow.svg" alt="Buttom Back"
+                                class="navbar__buttonBack__img" />
+                        </a>
+                    </div>
+
+                    <div class="navbar__rowLogo">
+                        <a href="/page/index.html" class="navbar__inline">
+                            <img src="../assets/img/icons/letterLogo.svg" alt="Buttom Back" width="103.25px"
+                                height="22.38px" />
+                            <img src="../assets/img/icons/moustacheLogo.svg" alt="Buttom Back" width="60.03px"
+                                height="18.74px" />
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navbar__grid">
+                <div class="navbar__secondCardNav">
+                    <h1 class="navbar__title">Tu pedido</h1>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <div class="marginTopNav"></div>
+
+    <!--
+/**
+**  <Fin de Seccion de Header and Navbar>
+**
+-->
+
+    <main>
+        <section class="containerCardOrder">
+            <div class="cardOrder">
+                <div class="cardOrder__grid">
+                    <div class="cardOrder__title">Cant.</div>
+                    <div class="cardOrder__title">Productos</div>
+                    <div class="cardOrder__title--2block">Precio $</div>
+                    <!-- Inicio de Listado-->
+
+                    <div class="cardOrder__units">1</div>
+                    <div class="cardOrder__units--description">Empanada de Carne</div>
+                    <div class="cardOrder__units--price">$650</div>
+                    <a href="">
+                        <picture class="cardOrder__units--trash">
+                            <img src="/assets/img/icons/iconTrash.svg" alt="">
+                    </a>
+                    </picture>
+
+                    <!-- Inicio Bucle -->
+                    <div class="cardOrder__units">2</div>
+                    <div class="cardOrder__units--description">Empanada de Carne</div>
+                    <div class="cardOrder__units--price">$650</div>
+                    <a href="">
+                        <picture class="cardOrder__units--trash">
+                            <img src="/assets/img/icons/iconTrash.svg" alt="">
+                    </a>
+                    </picture>
+                    <!-- Fin Bucle -->
+
+                    <!-- Inicio Bucle -->
+                    <div class="cardOrder__units">2</div>
+                    <div class="cardOrder__units--description">Empanada de Carne</div>
+                    <div class="cardOrder__units--price">$650</div>
+                    <a href="">
+                        <picture class="cardOrder__units--trash">
+                            <img src="/assets/img/icons/iconTrash.svg" alt="">
+                    </a>
+                    </picture>
+                    <!-- Fin Bucle -->
+
+                </div>
+
+                <div class="cardOrder__totalGrid">
+                    <div class="cardOrder__totalGrid--tittle">Total $</div>
+                    <div class="cardOrder__totalGrid--total">12345</div>
+                </div>
+
+            </div>
+            <!-- Importante para ver el total en listado con scroll-->
+            <div style="margin-bottom: 12rem;"></div>
+        </section>
+
+
+
+    </main>
+
+    <footer class="buttonFloat">
+        <div class="buttonShop">
+            <div class="buttonShop__card">
+                <div class="buttonShop__card__grid">
+                    <button class="buttonShop__primary br">Agregar más Productos</button>
+                    <button class="buttonShop__cancel br">Cancelar</button>
+                    <button class="buttonShop__buy br">Continuar</button>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>

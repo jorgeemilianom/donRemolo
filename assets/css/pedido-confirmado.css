@@ -1,0 +1,81 @@
+/* para que se centre el containter en la resolucion 1024*/
+@media only screen and (min-width:1024px)
+{
+.container
+ {
+ margin: 0 auto !important;
+
+ }
+}
+
+
+.container {
+   /* background: var(--background-list-price); */
+   background-color: #f1f1f1;
+    max-width: 800px;
+    display: grid;
+    justify-items: center;
+    padding: 2.8rem;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.content-text-1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+h4.text-1{
+    display: grid;
+    font-family: var(--Home-Card-FontFamily);
+    text-align: center;
+    text-decoration: none;
+    color: #313638;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.content-text-2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+h4.text-2{
+    display: grid;
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--Home-Card-FontFamily);
+    text-decoration: none;
+    color: #313638;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.box-btn{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#wpp-btn{
+    margin-top: 6px;
+    color: white;
+    border: none;
+    background-color: #ec3205;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: var(--Home-Card-FontFamily);
+}
+
+#wpp-btn:hover{
+    color: white;
+    background-color: #313638;
+}
+
+h2.text-3{
+text-align: center;
+font-family: var(--Home-Card-FontFamily), OpenSans;
+text-decoration: none;
+text-transform: uppercase;
+}
+

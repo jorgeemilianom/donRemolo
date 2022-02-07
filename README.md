@@ -82,6 +82,10 @@ git merge pagePedido
 │   		└── files.jpg
 │   	└── empanadas
 │   	└── files.jpg
+│
+├── devFront        // En esta carpeta se generara todo desarrollo hasta que este concluida
+│   ├── example.html     que pasara a la carpeta de /page.
+│
 ├── page
 │   ├── index.html
 │   ├── pizzas.html
