@@ -1,5 +1,7 @@
 :root {
-    --color1: #fff485;
+    --blanco: #fff;
+    --grisClaro: #f1f1f1;
+    --amarillo: #fff485;
 }
 @font-face {
     font-family: donRemolo;
@@ -86,10 +88,26 @@ a {
     width: 90%;
 }
 /* ----------------------------------------
-|   productos pizza
+|   Compra Cancelada
 -------------------------------------------*/
-.estoEsCamelCaes {
-    
+.compraCancelada {
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-content: center;
+}
+.compraCancelada img {
+    width: 90%;
+}
+.compraCancelada .textoDespedida {
+    font-size: 2rem;
+    background: var(--blanco);
+    padding: 70px 50px 20px 50px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    border-radius: 10px;
 }
 
 
