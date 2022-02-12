@@ -1,0 +1,94 @@
+:root {
+  --color1: #fff485;
+}
+/* ----------------------------------------
+|   Por defecto
+-------------------------------------------*/
+body {
+  background: url("../img/backgroundCompleto.svg");
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* ----------------------------------------
+|   Aux
+-------------------------------------------*/
+.b {
+  border: red solid 1px;
+}
+/* ----------------------------------------
+|   Generales
+-------------------------------------------*/
+.content {
+  display: flex;
+  place-content: center;
+  margin: 20px;
+  flex-direction: column;
+  /* border: solid red 1px; */
+}
+.cabecera img {
+  width: 100%;
+}
+.menu {
+  margin-top: 20px;
+  margin-bottom: 70px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 5px 5px #e0e0e0;
+  display: flex;
+  flex-direction: row;
+}
+.iconoPizza:hover {
+  background-color: #ec3205;
+  border: white;
+}
+.categorias {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  gap: 30px;
+}
+.categorias .caja {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 5px 5px #e0e0e0;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.caja .imagen {
+  position: relative;
+  display: flex;
+  place-content: center;
+}
+.categorias .caja img {
+  position: absolute;
+  top: -50px;
+  width: 150px;
+}
+.categorias .caja .title {
+  font-size: 20px;
+  text-align: center;
+  padding: 70px 0 30px 0;
+}
+.contenedorPizzaIndividual {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  border: solid red 3px;
+}
+.contenedorPizzaIndividual p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 15px;
+}
+.banner {
+  margin: 50px 0;
+  text-align: center;
+}
+.banner img {
+  width: 90%;
+}
