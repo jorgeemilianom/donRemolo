@@ -30,19 +30,39 @@ a {
 .cabecera img {
   width: 100%;
 }
-.menu {
+/* --------------------- ICONOS --------------------- */
+.headerIconos {
   margin-top: 20px;
-  margin-bottom: 70px;
-  border-radius: 20px;
+  margin-bottom: 16px;
+  border-radius: 10px;
   background: #fff;
-  box-shadow: 0px 5px 5px #e0e0e0;
+  box-shadow: 0px 2.71296px 13.5648px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: row;
+  height: 44px;
+  /* border: solid 3px red; */
+  align-items: center;
+  justify-content: space-evenly;
 }
-.iconoPizza:hover {
+.bloqueNaranja img:hover {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    contrast(103%);
+}
+.bloqueNaranja {
+  width: 36px;
+  height: 40px;
+  place-items: center;
+  transition: all 0.2s ease;
+  border-radius: 3px;
+  place-items: center;
+  align-items: center;
+  justify-items: center;
+}
+.bloqueNaranja:hover {
   background-color: #ec3205;
-  border: white;
+  transition: all 0.1s ease;
 }
+/* --------------------- ICONOS --------------------- */
 .categorias {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -72,19 +92,93 @@ a {
   text-align: center;
   padding: 70px 0 30px 0;
 }
-.contenedorPizzaIndividual {
+/* --------------------- PEDIDOS --------------------- */
+
+.contenedorPedidos {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   position: relative;
+  /* border: solid red 3px; */
+  box-shadow: 0px 2.71296px 13.5648px rgba(0, 0, 0, 0.15);
+  place-items: center;
+  height: 74px;
+  background-color: #ffffff;
+  border-radius: 9px;
+  margin-bottom: 13px;
+}
+.contenedorPedidos :nth-child(1) {
+  width: 65px;
+}
+.texto {
+  /* border: solid blue 2px; */
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+.texto p {
+  font-size: 7.3px;
+  margin: 0;
+  padding: 0;
+}
+.texto :nth-child(1) {
+  font-size: 9.3px;
+}
+.texto :nth-child(2) {
+  margin-top: 10px;
+}
+.texto :nth-child(3) {
+  color: #ec3205;
+  margin-top: 18px;
+  margin-left: 105px;
+  font-size: 9.3px;
+}
+/* --------------------- PEDIDOS --------------------- */
+
+/* --------------------- CARRITO --------------------- */
+.carrito {
+  /* width: 514px; */
+  width: 100%;
+  height: 54px;
   border: solid red 3px;
+  backdrop-filter: blur(5px);
+
+  position: fixed;
+  /* line-height: 55px; */
+  bottom: 0.1px;
+  right: 0.1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.contenedorPizzaIndividual p {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 11px;
-  line-height: 15px;
+.carrito a div {
+  border-radius: 50%;
+  background-color: #bdbdbd;
+  width: 37px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.carrito a div:hover {
+  /* background-color: #ec3205; */
+  /* filter: invert(20%) sepia(84%) saturate(3086%) hue-rotate(2deg)
+    brightness(100%) contrast(96%); */
+  border: solid 3px red;
+  background-color: red;
+}
+.carrito a div img {
+  width: 25px;
+  height: 24px;
+  margin-right: 3px;
+}
+.carrito a div img :hover {
+  width: 25px;
+  height: 24px;
+  margin-right: 3px;
+}
+/* --------------------- CARRITO --------------------- */
 .banner {
   margin: 50px 0;
   text-align: center;
