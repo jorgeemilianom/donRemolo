@@ -116,13 +116,14 @@ a {
 }
 .texto {
   /* border: solid blue 2px; */
+  width: 50%;
   height: 64px;
   display: flex;
   flex-direction: column;
 }
 
 .texto p {
-  font-size: 7.3px;
+  font-size: 10.3px;
   margin: 0;
   padding: 0;
 }
@@ -137,10 +138,11 @@ a {
   margin-top: 10px;
   color: #313638;
   opacity: 0.8;
+  font-size: 9.3px;
 }
 .texto :nth-child(3) {
-  margin-top: 18px;
-  margin-left: 105px;
+  margin-bottom: 5%;
+  margin-left: 80%;
   font-size: 9.3px;
 }
 .texto :nth-child(3) strong {
