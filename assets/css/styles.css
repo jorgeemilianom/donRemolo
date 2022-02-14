@@ -2,6 +2,10 @@
     --blanco: #fff;
     --grisClaro: #f1f1f1;
     --amarillo: #fff485;
+    --rojo: #EC3205;
+    --grisMedio: #C4C4C4; 
+    --negro: #313638;
+    --verde: #00E676;
 }
 @font-face {
     font-family: donRemolo;
@@ -134,8 +138,8 @@ a {
 .headerProductoABCD {
     border-radius: 10px; 
     margin: 0 20px;
-    background: #fff;
-    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.288);
+    background: var(--blanco);
+    box-shadow: 0px 2px 5px 1px var(--negro);
     height: 60px;
     display: flex;
     flex-direction: column;
@@ -174,8 +178,8 @@ a {
 .listado {
     border-radius: 10px; 
     margin: 30px 20px 0;
-    background: #fff;
-    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.288);
+    background: var(--blanco);
+    box-shadow: 0px 2px 5px 1px var(--grisMedio);
     height: auto;
     display: flex;
     flex-direction: column;
@@ -183,8 +187,8 @@ a {
 
 .cajaBotones {
     border-radius: 10px; 
-    background: #fff;
-    box-shadow: 0px 2.71296px 13.5648px rgba(0, 0, 0, 0.15);
+    background: var(--blanco);
+    box-shadow: 0px 2.71296px 13.5648px var(--negro);
     height: auto;
     display: flex;
     justify-content: center;
@@ -195,13 +199,13 @@ a {
 .btn1 {
     height: 45px;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     margin: 20px 15px 0px;
     width: 100%;
-    color: rgb(197, 197, 197);
-    background: rgb(250, 26, 26);
-    border: 1px solid rgb(195, 86, 86);
+    color: var(--grisMedio);
+    background: var(--rojo);
+    border: 1px solid var(--rojo);
 }
 
 .divBotones {
@@ -218,11 +222,11 @@ a {
     margin: 10px 5px;
     font-weight: bold;
     align-items: center;
-    color: rgb(223, 33, 33);
-    background: rgb(199, 196, 196);
-    border: 1px solid rgb(195, 86, 86);
+    color: var(--rojo);
+    background: var(--grisMedio);
+    border: 1px solid var(--rojo);
     width: 90%;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .btn3 {
@@ -230,19 +234,17 @@ a {
     border-radius: 10px ;
     margin: 10px 5px;
     font-weight: bold;  
-    color: rgb(197, 197, 197);
-    background: rgb(250, 26, 26);
-    border: 1px solid rgb(195, 86, 86);
+    color: var(--grisMedio);
+    background:var(--rojo);
+    border: 1px solid var(--rojo);
     width: 90%;
-    font-size: 15px;
+    font-size: 18px;
 }
-
 
 td {
    font-weight: lighter;
     height: 40px;    
 }
-
 
 table {
     display: flex;
@@ -258,18 +260,16 @@ table {
     margin-bottom: 15px;
 }
 
-
 .botonPago {
-    color: white;
+    color: var(--blanco);
     border: none;
-    border-radius: 10px;
-    border: 1px solid red;
-    background: rgb(250, 26, 26);
-    height: 36px;
+    border-radius: 5px;
+    border: 1px solid var(--rojo);
+    background: var(--rojo);
+    height: 44px;
     width: 100px;
-    font-size: 18px;    
+    font-size: 22px;    
 }
-
 
 tr p {
     font-size: 22px;
