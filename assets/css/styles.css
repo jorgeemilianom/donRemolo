@@ -324,3 +324,13 @@ tr p {
 .fondoContenedor img {
     height: 14px;
 }
+
+.contenedorTexto {
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 40px 20px;
+    text-align: center;
+}
