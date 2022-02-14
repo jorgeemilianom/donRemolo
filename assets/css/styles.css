@@ -278,3 +278,49 @@ tr p {
     margin-right: 15px;
     margin-top: 5px;
 }
+
+/* ----------------------------------------
+|   onboarding
+-------------------------------------------*/
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+ .imagenContenedor {
+    height: 190px;   
+}
+
+.textoContenedor {
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.fondoContenedor {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 200px 0px 0px;
+}
+
+.fondoContenedor p {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0px 20px 0;
+   
+}
+
+.fondoContenedor img {
+    height: 14px;
+}
