@@ -1,5 +1,5 @@
 <?php
-require('../src/core.php');
+require('src/core.php');
 
 ?>
 <!DOCTYPE html>
@@ -27,7 +27,15 @@ require('../src/core.php');
 <body class="bg-black text-light">
     <!-- Aca dentro va codigo PHP -->
     <div class="caja"><?php
-        t($_SESSION['products']);
+        
+
+
+
+
+
+
+
+
     ?></div> 
 
 <script src="../src/ajax/productos.js"></script>

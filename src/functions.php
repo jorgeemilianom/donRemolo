@@ -2,8 +2,8 @@
 /*============================================================================
 |       Funciones auxiliares
 ============================================================================*/ 
-require($URLweb.'/src/database.php');
-require($URLweb.'/src/entitys/product.php');
+require('../src/database.php');
+require('../src/entitys/product.php');
 
 function obtenerProductos(){
     // DB
