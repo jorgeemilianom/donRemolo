@@ -2,6 +2,10 @@
     --blanco: #fff;
     --grisClaro: #f1f1f1;
     --amarillo: #fff485;
+    --rojo: #EC3205;
+    --grisMedio: #C4C4C4; 
+    --negro: #313638;
+    --verde: #00E676;
 }
 @font-face {
     font-family: donRemolo;
@@ -127,4 +131,205 @@ a {
     border-radius: 10px;
 }
 
+/* ----------------------------------------
+|   productoABCD
+-------------------------------------------*/
 
+.headerProductoABCD {
+    border-radius: 10px; 
+    margin: 0 20px;
+    background: var(--blanco);
+    box-shadow: 0px 2px 5px 1px var(--negro);
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    margin: 20px 20px 0;
+}
+
+.containerImg img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.arrowBack {
+    margin-left: 15px;
+    position: absolute;
+    margin-bottom: 15px;   
+}
+
+.arrowBack img {
+    height: 15px;
+}
+
+.headerTexto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold; 
+  font-size: 18px;
+}
+
+.listado {
+    border-radius: 10px; 
+    margin: 30px 20px 0;
+    background: var(--blanco);
+    box-shadow: 0px 2px 5px 1px var(--grisMedio);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cajaBotones {
+    border-radius: 10px; 
+    background: var(--blanco);
+    box-shadow: 0px 2.71296px 13.5648px var(--negro);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;  
+    margin: 80px 10px 15px;  
+}
+
+.btn1 {
+    height: 45px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 15px 0px;
+    width: 100%;
+    color: var(--grisMedio);
+    background: var(--rojo);
+    border: 1px solid var(--rojo);
+}
+
+.divBotones {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 10px;
+}
+
+.btn2 {
+    height: 45px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    font-weight: bold;
+    align-items: center;
+    color: var(--rojo);
+    background: var(--grisMedio);
+    border: 1px solid var(--rojo);
+    width: 90%;
+    font-size: 18px;
+}
+
+.btn3 {
+    height: 45px;
+    border-radius: 10px ;
+    margin: 10px 5px;
+    font-weight: bold;  
+    color: var(--grisMedio);
+    background:var(--rojo);
+    border: 1px solid var(--rojo);
+    width: 90%;
+    font-size: 18px;
+}
+
+td {
+   font-weight: lighter;
+    height: 40px;    
+}
+
+table {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;  
+}
+
+.divPago {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.botonPago {
+    color: var(--blanco);
+    border: none;
+    border-radius: 5px;
+    border: 1px solid var(--rojo);
+    background: var(--rojo);
+    height: 44px;
+    width: 100px;
+    font-size: 22px;    
+}
+
+tr p {
+    font-size: 22px;
+    font-weight: bold;
+    width: auto;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+/* ----------------------------------------
+|   onboarding
+-------------------------------------------*/
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+ .imagenContenedor {
+    height: 190px;   
+}
+
+.textoContenedor {
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.fondoContenedor {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 200px 0px 0px;
+}
+
+.fondoContenedor p {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0px 20px 0;   
+}
+
+.fondoContenedor img {
+    height: 14px;
+}
+
+.contenedorTexto {
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 40px 20px;
+    text-align: center;
+}
