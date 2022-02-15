@@ -67,35 +67,7 @@ a {
   transition: all 0.1s ease;
 }
 /* --------------------- ICONOS --------------------- */
-.categorias {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  place-content: center;
-  gap: 30px;
-}
-.categorias .caja {
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0px 5px 5px #e0e0e0;
-  border-radius: 10px;
-  margin-bottom: 50px;
-}
-.caja .imagen {
-  position: relative;
-  display: flex;
-  place-content: center;
-}
-.categorias .caja img {
-  position: absolute;
-  top: -50px;
-  width: 150px;
-}
-.categorias .caja .title {
-  font-size: 20px;
-  text-align: center;
-  padding: 70px 0 30px 0;
-}
+
 /* --------------------- PEDIDOS --------------------- */
 
 .contenedorPedidos {
@@ -123,13 +95,11 @@ a {
 }
 
 .texto p {
-  /* font-size: 10.3px; */
   font-size: 12px;
   margin: 0;
   padding: 0;
 }
 .texto :nth-child(1) {
-  /* font-family: open Sans; */
   font-family: donRemolo;
   font-size: 9.3px;
   color: #313638;

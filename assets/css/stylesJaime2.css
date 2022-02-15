@@ -58,6 +58,15 @@ a {
   margin-bottom: 13px;
   margin-top: 8px;
 }
+.numero {
+  width: 90%;
+  align-items: center;
+  margin: auto;
+}
+
+.contenedorPrincipal p strong {
+  font-size: 18px;
+}
 .contenedorPedidos {
   display: flex;
   flex-direction: row;
@@ -78,6 +87,7 @@ a {
   margin-bottom: 13px;
   background-color: #c4c4c4;
   color: #ec3205;
+  font-size: 16px;
 }
 .botonNaranja {
   margin-bottom: 13px;
