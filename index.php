@@ -19,25 +19,25 @@
     </div>
     
     <div class="categorias">
-        <a href="">
+        <a href="page/productos.php?category=pizzas">
             <div class="caja ">
                 <div class="imagen"><img src="assets/img/botonesHome/pizzaBoton.svg" alt=""></div>
                 <div class="title">Pizzas</div>
             </div>
         </a>
-        <a href="">
+        <a href="page/productos.php?category=empanadas">
             <div class="caja ">
                 <div class="imagen"><img src="assets/img/botonesHome/empanadasBoton.svg" alt=""></div>
                 <div class="title">Empanadas</div>
             </div>
         </a>
-        <a href="">
+        <a href="page/productos.php?category=bebidas">
             <div class="caja ">
                 <div class="imagen"><img src="assets/img/botonesHome/bebidaBoton.svg" alt=""></div>
                 <div class="title">Bebidas</div>
             </div>
         </a>
-        <a href="">
+        <a href="page/productos.php?category=postres">
             <div class="caja ">
                 <div class="imagen"><img src="assets/img/botonesHome/postreBoton.svg" alt=""></div>
                 <div class="title">Postres</div>

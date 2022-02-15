@@ -1,0 +1,22 @@
+INSERT INTO productos (product, price, description, url_img, category) VALUES ('Budin de Pan',106,'Postre tradicional hecho con migas de pan','assets/img/postres/budinDePan.svg','Postres');
+INSERT INTO productos (product, price, description, url_img, category) VALUES ('Ensalada de Frutas',53,'Frutas sin componentes quimicos','assets/img/postres/ensaladaDeFrutas.svg','Postres');
+INSERT INTO productos (product, price, description, url_img, category) VALUES ('Flan',160,'Hecho con una natilla que se prepara con huevos enteros, leche y azúcar','assets/img/postres/flanDdl.svg','Postres');
+INSERT INTO productos (product, price, description, url_img, category) VALUES ('Helado',50,'Hecho con frutas sin compuestos quimicos','assets/img/postres/helado.svg','Postres');
+INSERT INTO productos (product, price, description, url_img, category) VALUES ('Lemon Pie',100,'Tarta de limón','assets/img/postres/lemonPie.svg','Postres');
+
+
+INSERT INTO productos (product, price, description, url_img, category) VALUES ('Agua con Gas',530,'Agua carbonatada','assets/img/bebidas/aguaConGas.svg','Bebidas');
+INSERT INTO productos (product, price, description, url_img, category) VALUES ('Agua Mineral',100,'Agua obtenida de minerales disueltos','assets/img/bebidas/aguaMineral.svg','Bebidas');
+INSERT INTO productos (product, price, description, url_img, category) VALUES ('Agua Saborizada',100,'Agua con sabor','assets/img/bebidas/aguaSaborizada.svg','Bebidas');
+INSERT INTO productos (product, price, description, url_img, category) VALUES ('Cerveza',160,'Cerveza marca Brahma','assets/img/bebidas/cerveza.svg','Bebidas');
+INSERT INTO productos (product, price, description, url_img, category) VALUES ('Coca Cola',300,'Coca cola de 3 litros','assets/img/bebidas/cocaCola.svg','Bebidas');
+
+
+
+
+
+
+=======================================
+para subir las imagenes: 
+https://imgur.com/upload
+=================================
