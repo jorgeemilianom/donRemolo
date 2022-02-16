@@ -1,0 +1,182 @@
+:root {
+  --color1: #fff485;
+}
+/* ----------------------------------------
+  |   Por defecto
+  -------------------------------------------*/
+body {
+  background: url("../img/backgroundCompleto.svg");
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* ----------------------------------------
+  |   Aux
+  -------------------------------------------*/
+.b {
+  border: red solid 1px;
+}
+/* ----------------------------------------
+  |   Generales
+  -------------------------------------------*/
+.content {
+  display: flex;
+  place-content: center;
+  margin: 20px;
+  flex-direction: column;
+  /* border: solid red 1px; */
+}
+.cabecera img {
+  width: 100%;
+}
+/* --------------------- ICONOS --------------------- */
+.headerIconos {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 2.71296px 13.5648px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bloqueNaranja img {
+  width: 36px;
+  height: 36px;
+}
+
+.bloqueNaranja img:hover {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    contrast(103%);
+}
+.bloqueNaranja {
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  transition: all 0.2s ease;
+  border-radius: 3px;
+  place-items: center;
+  align-items: center;
+  justify-items: center;
+}
+.bloqueNaranja:hover {
+  background-color: #ec3205;
+  transition: all 0.1s ease;
+}
+/* --------------------- ICONOS --------------------- */
+
+/* --------------------- PEDIDOS --------------------- */
+
+.contenedorPedidos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  /* border: solid red 3px; */
+  box-shadow: 0px 2.71296px 13.5648px rgba(0, 0, 0, 0.15);
+  place-items: center;
+  height: 80px;
+  background-color: #ffffff;
+  border-radius: 9px;
+  margin-bottom: 13px;
+}
+.contenedorPedidos :nth-child(1) {
+  width: 65px;
+}
+.texto {
+  /* border: solid blue 2px; */
+  width: 50%;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+.texto p {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+#textoTrash {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: solid red 1px; */
+  width: 100%;
+  margin-left: 20px;
+}
+#textoTrash img {
+  margin-top: -3px;
+}
+#textoTrash p {
+  margin-left: -20px;
+}
+.texto :nth-child(1) {
+  font-family: donRemolo;
+  font-size: 9.3px;
+  color: #313638;
+  opacity: 0.8;
+}
+.texto :nth-child(2) {
+  margin-top: 10px;
+  color: #313638;
+  opacity: 0.8;
+  font-size: 9.3px;
+}
+.texto :nth-child(3) {
+  margin-bottom: 5%;
+  margin-left: 80%;
+  font-size: 9.3px;
+}
+.texto :nth-child(3) strong {
+  color: #ec3205;
+}
+/* --------------------- PEDIDOS --------------------- */
+
+/* --------------------- CARRITO --------------------- */
+.carrito {
+  width: 100%;
+  height: 54px;
+  backdrop-filter: blur(5px);
+  /* -webkit-filter: blur(5px); */
+  position: fixed;
+  bottom: 0.1px;
+  right: 0.1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carrito a picture {
+  border-radius: 50%;
+  background-color: #bdbdbd;
+  width: 37px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carrito a picture:hover {
+  border: solid 3px red;
+  background-color: red;
+}
+.carrito a picture img {
+  width: 25px;
+  height: 24px;
+  margin-right: 3px;
+}
+.carrito a picture img :hover {
+  width: 25px;
+  height: 24px;
+  margin-right: 3px;
+}
+/* --------------------- CARRITO --------------------- */
+.banner {
+  margin: 50px 0;
+  text-align: center;
+}
+.banner img {
+  width: 90%;
+}
