@@ -1,134 +1,134 @@
 :root {
-    --blanco: #fff;
-    --grisClaro: #f1f1f1;
-    --amarillo: #fff485;
-    --rojo: #EC3205;
-    --grisMedio: #C4C4C4; 
-    --negro: #313638;
-    --verde: #00E676;
+  --blanco: #fff;
+  --grisClaro: #f1f1f1;
+  --amarillo: #fff485;
+  --rojo: #ec3205;
+  --grisMedio: #c4c4c4;
+  --negro: #313638;
+  --verde: #00e676;
 }
 @font-face {
-    font-family: donRemolo;
-    src: url('../fonts/OpenSans-VariableFont_wdth\,wght.ttf') ;
-  }
+  font-family: donRemolo;
+  src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
 /* ----------------------------------------
 |   Por defecto
 -------------------------------------------*/
 body {
-    background: url('../img/backgroundCompleto.svg');
-    font-family: 'donRemolo';
+  background: url("../img/backgroundCompleto.svg");
+  font-family: "donRemolo";
 }
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 /* ----------------------------------------
 |   Aux
 -------------------------------------------*/
 .b {
-    border: red solid 1px;
+  border: red solid 1px;
 }
 /* ----------------------------------------
 |   Generales
 -------------------------------------------*/
 .content {
-    display: flex;
-    place-content: center;
-    margin: 20px;
-    flex-direction: column;
+  display: flex;
+  place-content: center;
+  margin: 20px;
+  flex-direction: column;
 }
-.cabecera img{
-    width: 100%;
+.cabecera img {
+  width: 100%;
 }
 .titular {
-    margin-top: 20px;
-    background: #fff;
-    border-radius: 20px;
-    padding: 20px;
-    font-size: 25px;
-    font-weight: 600;
-    text-align: center;
-    box-shadow: 0px 5px 5px #e0e0e0;
-    margin-bottom: 70px;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0px 5px 5px #e0e0e0;
+  margin-bottom: 70px;
 }
 /* ----------------------------------------
 |   Footer y BannerFooter
 -------------------------------------------*/
 .banner {
-    margin: 50px 0;
-    text-align: center;
+  margin: 50px 0;
+  text-align: center;
 }
-.banner img{
-    width: 90%;
+.banner img {
+  width: 90%;
 }
 /* ----------------------------------------
 |   Home
 -------------------------------------------*/
 .categorias {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-content: center;
-    gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  gap: 30px;
 }
 .categorias .caja {
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 5px 5px #e0e0e0;
-    border-radius: 10px;
-    margin-bottom: 50px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 5px 5px #e0e0e0;
+  border-radius: 10px;
+  margin-bottom: 50px;
 }
-.categorias .caja .imagen{
-    position: relative;
-    display: flex;
-    place-content: center;
+.categorias .caja .imagen {
+  position: relative;
+  display: flex;
+  place-content: center;
 }
 .categorias .caja img {
-    position: absolute;
-    top: -50px;
-    width: 190px;
+  position: absolute;
+  top: -50px;
+  width: 190px;
 }
 .categorias .caja .title {
-    font-size: 20px;
-    text-align: center;
-    padding: 100px 0 50px 0;
+  font-size: 20px;
+  text-align: center;
+  padding: 100px 0 50px 0;
 }
 /* ----------------------------------------
 |   Compra Concretada
 -------------------------------------------*/
 .compraConcretada {
-    background: var(--blanco);
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 700;
-    border-radius: 10px;
-    padding: 50px 50px;
-    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.288);
+  background: var(--blanco);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 50px 50px;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.288);
 }
 .compraConcretada p {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 /* ----------------------------------------
 |   Compra Cancelada
 -------------------------------------------*/
 .compraCancelada {
-    margin: 80px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    place-content: center;
+  margin: 80px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-content: center;
 }
 .compraCancelada img {
-    width: 90%;
+  width: 90%;
 }
 .compraCancelada .textoDespedida {
-    font-size: 2rem;
-    background: var(--blanco);
-    padding: 70px 50px 20px 50px;
-    text-align: center;
-    font-style: italic;
-    font-weight: 500;
-    border-radius: 10px;
+  font-size: 2rem;
+  background: var(--blanco);
+  padding: 70px 50px 20px 50px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  border-radius: 10px;
 }
 
 /* ----------------------------------------
@@ -136,147 +136,147 @@ a {
 -------------------------------------------*/
 
 .headerProductoABCD {
-    border-radius: 10px; 
-    margin: 0 20px;
-    background: var(--blanco);
-    box-shadow: 0px 2px 5px 1px var(--negro);
-    height: 60px;
-    display: flex;
-    flex-direction: column;
+  border-radius: 10px;
+  margin: 0 20px;
+  background: var(--blanco);
+  box-shadow: 0px 2px 5px 1px var(--negro);
+  height: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
-    display: flex;
-    place-content: center;
-    flex-direction: column;
-    margin: 20px 20px 0;
+  display: flex;
+  place-content: center;
+  flex-direction: column;
+  margin: 20px 20px 0;
 }
 
-.containerImg img{
+.containerImg img {
   width: 100%;
   margin-bottom: 10px;
 }
 
 .arrowBack {
-    margin-left: 15px;
-    position: absolute;
-    margin-bottom: 15px;   
+  margin-left: 15px;
+  position: absolute;
+  margin-bottom: 15px;
 }
 
 .arrowBack img {
-    height: 15px;
+  height: 15px;
 }
 
 .headerTexto {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: bold; 
+  font-weight: bold;
   font-size: 18px;
 }
 
 .listado {
-    border-radius: 10px; 
-    margin: 30px 20px 0;
-    background: var(--blanco);
-    box-shadow: 0px 2px 5px 1px var(--grisMedio);
-    height: auto;
-    display: flex;
-    flex-direction: column;
+  border-radius: 10px;
+  margin: 30px 20px 0;
+  background: var(--blanco);
+  box-shadow: 0px 2px 5px 1px var(--grisMedio);
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .cajaBotones {
-    border-radius: 10px; 
-    background: var(--blanco);
-    box-shadow: 0px 2.71296px 13.5648px var(--negro);
-    height: auto;
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;  
-    margin: 80px 10px 15px;  
+  border-radius: 10px;
+  background: var(--blanco);
+  box-shadow: 0px 2.71296px 13.5648px var(--negro);
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin: 80px 10px 15px;
 }
 
 .btn1 {
-    height: 45px;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 20px 15px 0px;
-    width: 100%;
-    color: var(--grisMedio);
-    background: var(--rojo);
-    border: 1px solid var(--rojo);
+  height: 45px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 15px 0px;
+  width: 100%;
+  color: var(--grisMedio);
+  background: var(--rojo);
+  border: 1px solid var(--rojo);
 }
 
 .divBotones {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
-    margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 10px;
 }
 
 .btn2 {
-    height: 45px;
-    border-radius: 10px;
-    margin: 10px 5px;
-    font-weight: bold;
-    align-items: center;
-    color: var(--rojo);
-    background: var(--grisMedio);
-    border: 1px solid var(--rojo);
-    width: 90%;
-    font-size: 18px;
+  height: 45px;
+  border-radius: 10px;
+  margin: 10px 5px;
+  font-weight: bold;
+  align-items: center;
+  color: var(--rojo);
+  background: var(--grisMedio);
+  border: 1px solid var(--rojo);
+  width: 90%;
+  font-size: 18px;
 }
 
 .btn3 {
-    height: 45px;
-    border-radius: 10px ;
-    margin: 10px 5px;
-    font-weight: bold;  
-    color: var(--grisMedio);
-    background:var(--rojo);
-    border: 1px solid var(--rojo);
-    width: 90%;
-    font-size: 18px;
+  height: 45px;
+  border-radius: 10px;
+  margin: 10px 5px;
+  font-weight: bold;
+  color: var(--grisMedio);
+  background: var(--rojo);
+  border: 1px solid var(--rojo);
+  width: 90%;
+  font-size: 18px;
 }
 
 td {
-   font-weight: lighter;
-    height: 40px;    
+  font-weight: lighter;
+  height: 40px;
 }
 
 table {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;  
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 .divPago {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 15px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
 }
 
 .botonPago {
-    color: var(--blanco);
-    border: none;
-    border-radius: 5px;
-    border: 1px solid var(--rojo);
-    background: var(--rojo);
-    height: 44px;
-    width: 100px;
-    font-size: 22px;    
+  color: var(--blanco);
+  border: none;
+  border-radius: 5px;
+  border: 1px solid var(--rojo);
+  background: var(--rojo);
+  height: 44px;
+  width: 100px;
+  font-size: 22px;
 }
 
 tr p {
-    font-size: 22px;
-    font-weight: bold;
-    width: auto;
-    margin-right: 15px;
-    margin-top: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  width: auto;
+  margin-right: 15px;
+  margin-top: 5px;
 }
 
 /* ----------------------------------------
@@ -284,52 +284,54 @@ tr p {
 -------------------------------------------*/
 
 .contenedor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
- .imagenContenedor {
-    height: 190px;   
+.imagenContenedor {
+  height: 190px;
 }
 
 .textoContenedor {
-    font-weight: bold;
-    font-size: 26px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+  font-weight: bold;
+  font-size: 26px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .fondoContenedor {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;  
-    flex-flow: row nowrap;
-    align-items: center;
-    margin: 200px 0px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 200px 0px 0px;
 }
 
 .fondoContenedor p {
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin: 0px 20px 0;   
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0px 20px 0;
 }
 
 .fondoContenedor img {
-    height: 14px;
+  height: 14px;
 }
 
 .contenedorTexto {
-    font-weight: bold;
-    font-size: 26px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: 40px 20px;
-    text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 40px 20px;
+  text-align: center;
 }
+
+/* Jaime */
