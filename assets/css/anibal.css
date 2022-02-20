@@ -87,6 +87,45 @@ a {
 .banner img{
     width: 90%;
 }
+
+/* --------------------- ICONOS --------------------- */
+.headerIconos {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 2.71296px 13.5648px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bloqueNaranja img {
+    width: 36px;
+    height: 36px;
+}
+
+.bloqueNaranja img:hover {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    contrast(103%);
+}
+.bloqueNaranja {
+    width: 36px;
+    height: 36px;
+    place-items: center;
+    transition: all 0.2s ease;
+    border-radius: 3px;
+    place-items: center;
+    align-items: center;
+    justify-items: center;
+}
+    .bloqueNaranja:hover {
+    background-color: #ec3205;
+    transition: all 0.1s ease;
+}
+  /* --------------------- ICONOS --------------------- */
+  
 /* ----------------------------------------
 |   Pagina Carga
 -------------------------------------------*/
@@ -99,9 +138,10 @@ a {
     position: absolute;
     width: 12px;
     height: 21px;
-    left: 11px;
-    top: 6px;
+    left: 20px;
+    top: 50%;
     cursor: pointer;
+    transform: translate(0, -50%);
 }
 
 .productoCompra {
@@ -231,4 +271,86 @@ a {
     height: 55px;
     width: 55px;
     cursor: pointer;
+}
+
+@media (min-width: 450px) {
+    
+    .caracteristicasProducto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .porcionesYCantidad {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cantidadContenedor {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 350px) {
+    
+    .nombreProducto p {
+        font-size: 20px;
+    }
+    
+    .caracteristicasProducto img {
+        height: 90px;
+        width: 90px;
+        margin-left: 10px;
+    }
+    
+    .caracteristicasProducto p {
+        font-size: 11px;
+        margin-left: 10px;
+    }
+    
+    .porcionesYCantidad {
+        margin-left: 30px;
+    }
+    
+    .porciones {
+        font-size: 12px;
+    }
+    
+    .precio {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    
+    .cantidadContenedor {
+        padding: 0 20px 0 15px;
+        margin-top: 10px;
+    }
+    
+    .cantidad {
+        font-size: 12px;
+    }
+    
+    .cantidadNumero {
+        padding: 2px 6px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    
+    .cantidadContenedor span {
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    
+    .precioCantidad {
+        padding: 2px 16px;
+        font-size: 16px;
+    }
+    
+    .agregarPedido {
+        margin: 20px 20px 0 20px;
+        height: 40px;
+        font-size: 15px;
+    }
+    
 }
