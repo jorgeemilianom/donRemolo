@@ -677,6 +677,7 @@ tr p {
   width: 90%;
   align-items: center;
   margin: auto;
+  border: none;
 }
 
 .contenedorPrincipal p strong {
@@ -704,12 +705,12 @@ tr p {
   color: #ec3205;
   font-size: 16px;
 }
-.botonNaranja {
+.contenedorPedidos .botonNaranja {
   margin-bottom: 13px;
   font-size: 18px;
   line-height: 25px;
   line-height: 100%;
-  width: 88%;
+  width: 50%;
   height: 33.3px;
   border: solid 1px #ec3205;
   background-color: #ec3205;
