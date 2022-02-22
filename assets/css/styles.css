@@ -142,9 +142,11 @@ a {
   border-radius: 10px;
   padding: 50px 50px;
   box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.288);
+  margin-top: 10px;
 }
 .compraConcretada p {
   margin-bottom: 60px;
+  line-height: 20px;
 }
 /* ---------------------------------------- [Jorge]
 |   Compra Cancelada
