@@ -169,7 +169,7 @@ a {
   border-radius: 10px;
 }
 /* ---------------------------------------- 
-|   productoABCD
+|   productoABCD [Víctor]
 -------------------------------------------*/
 .headerProductoABCD {
   border-radius: 10px;
@@ -299,7 +299,7 @@ tr p {
   margin-top: 5px;
 }
 /* ----------------------------------------
-|   onboarding
+|   onboarding [Víctor]
 -------------------------------------------*/
 .contenedor {
   display: flex;
@@ -346,7 +346,7 @@ tr p {
     text-align: center;
 }
 /* ----------------------------------------
-|   productoA9
+|   productoA9 [Víctor]
 -------------------------------------------*/
 .contenedorBotones {
     border-radius: 10px; 
@@ -601,7 +601,7 @@ tr p {
 }
 .texto {
   /* border: solid blue 2px; */
-  width: 50%;
+  width: 65%;
   height: 64px;
   display: flex;
   flex-direction: column;
@@ -616,7 +616,8 @@ tr p {
   margin-left: 20px;
 }
 #textoTrash img {
-  margin-top: -3px;
+  margin-top: -2px;
+  margin-right: 12px;
 }
 #textoTrash p {
   margin-left: -20px;
@@ -628,15 +629,15 @@ tr p {
 }
 .texto :nth-child(1) {
   font-family: donRemolo;
-  font-size: 9.3px;
+  font-size: 16px;
   color: #313638;
   opacity: 0.8;
 }
 .texto :nth-child(2) {
-  margin-top: 10px;
+  margin-top: 4px;
   color: #313638;
   opacity: 0.8;
-  font-size: 9.3px;
+  font-size: 12px;
 }
 .texto :nth-child(3) {
   margin-bottom: 5%;
@@ -645,7 +646,13 @@ tr p {
 }
 .texto :nth-child(3) strong {
   color: #ec3205;
+  font-size: 14px;
 }
+
+.textoProductos {
+  font-size: 10px;
+}
+
 /* =========================*/
 .contenedorPrincipal {
   display: flex;
