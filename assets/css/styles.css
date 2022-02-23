@@ -177,7 +177,7 @@ a {
   border-radius: 10px;
   margin: 0 20px;
   background: var(--blanco);
-  box-shadow: 0px 2px 5px 1px var(--negro);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
   height: 60px;
   display: flex;
   flex-direction: column;
@@ -216,6 +216,11 @@ a {
   display: flex;
   flex-direction: column;
 }
+.btnBorrarPedido {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
 .cajaBotones {
   border-radius: 10px;
   background: var(--blanco);
@@ -225,6 +230,9 @@ a {
   justify-content: center;
   flex-flow: row wrap;
   margin: 80px 10px 15px;
+}
+.cajaBotones .btn1, .btn2, .btn3 {
+  cursor: pointer;
 }
 .btn1 {
   height: 45px;
@@ -456,7 +464,8 @@ tr p {
 }
 /* ----------------------------------------
 |   Pagina Carga
--------------------------------------------*/
+-------------------------------------------   [ Inicio Parte ANIBAL]  
+*/
 
 .cabecera {
   position: relative;
@@ -535,13 +544,21 @@ tr p {
   font-size: 14px;
 }
 .cantidadNumero {
-  padding: 8px 14px;
+  padding: 4px 0;
+  width: 30px;
+  text-align: center;
   background: #EC3205;
+  border: none;
   color: #ffffff;
   border-radius: 5px;
   font-size: 21px;
   margin-left: 25px;
   cursor: pointer;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 .cantidadContenedor span {
   font-size: 18px;
@@ -554,16 +571,17 @@ tr p {
   border-radius: 5px;
   font-size: 21px;
   margin-left: 10px;
-  cursor: pointer;
 }
 .agregarPedido {
   background: #EC3205;
   color: #ffffff;
-  margin: 20px 30px 0 30px;
+  margin: 20px auto;
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50px;
+  width: 90%;
   border-radius: 10px;
   cursor: pointer;
   color: #C4C4C4;
@@ -582,7 +600,7 @@ tr p {
   width: 55px;
   cursor: pointer;
 }
-/* ----------------------------------------
+/* ----------------------------------------   [Final parte Anibal]
 |   Pedidos
 -------------------------------------------*/
 .contenedorPedidos {
@@ -903,6 +921,9 @@ pie {
       display: flex;
       justify-content: center;
   }
+  .precio{
+      width: 80px;
+  }
   .cantidadContenedor {
       display: flex;
       justify-content: center;
@@ -941,15 +962,17 @@ pie {
   .cantidadNumero {
       padding: 2px 6px;
       font-size: 16px;
-      margin-left: 10px;
+      margin-left: 5px;
+      width: 20px;
   }
   .cantidadContenedor span {
       font-size: 15px;
-      margin-left: 15px;
+      margin-left: 5px;
   }
   .precioCantidad {
       padding: 2px 16px;
       font-size: 16px;
+      margin-left: 5px;
   }
   .agregarPedido {
       margin: 20px 20px 0 20px;
