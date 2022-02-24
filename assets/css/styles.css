@@ -358,15 +358,15 @@ tr p {
   text-align: center;
 }
 
-/* Jaime 
+/*  [Jaime]
 |   PRODUCTO1 
-|   PRODUCTOAB     (botones)
+|   PRODUCTOAB     
 |   PRODUCTOA10
-|   COMPCARGA      (animación)
-|elaborado por Jaime Andrés Moncayo Parra
+|   COMPCARGA      
+| elaborado por Jaime Andrés Moncayo Parra
 */
 
-/* --------------------- PRODUCTO1 --------------------- */
+/* --------------------- PRODUCTO1 (lista-productos)--------------------- [Jaime] */
 
 .headerIconos {
   margin-top: 20px;
@@ -384,7 +384,6 @@ tr p {
   width: 36px;
   height: 36px;
 }
-
 .bloqueNaranja img:hover {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
     contrast(103%);
@@ -424,7 +423,6 @@ tr p {
   display: flex;
   flex-direction: column;
 }
-
 .texto p {
   font-size: 12px;
   margin: 0;
@@ -454,7 +452,6 @@ tr p {
   width: 100%;
   height: 54px;
   backdrop-filter: blur(5px);
-  /* -webkit-filter: blur(5px); */
   position: fixed;
   bottom: 0.1px;
   right: 0.1px;
@@ -492,12 +489,11 @@ tr p {
 .banner img {
   width: 90%;
 }
-/* --------------------- PRODUCTO1 --------------------- */
+/* --------------------- PRODUCTO1 (lista-productos) --------------------- [Jaime] */
 
 
 
-/* --------------------- PRODUCTOAB --------------------- */
-
+/* ------------------- PRODUCTOAB (gestión interna) --------------------- [Jaime] */
 .contenedorPrincipal {
   display: flex;
   flex-direction: column;
@@ -522,7 +518,6 @@ tr p {
   align-items: center;
   margin: auto;
 }
-
 .contenedorPrincipal p strong {
   font-size: 18px;
 }
@@ -534,8 +529,6 @@ tr p {
   width: 100%;
 }
 .parBotones {
-  /* width: 92px;
-  height: 33.3px; */
   width: 45%;
   height: 33.3px;
   border: solid 1px #ec3205;
@@ -583,14 +576,13 @@ p {
   font-size: 18px;
   line-height: 15px;
 }
-
 .click button:focus {
   background: #ec3205;
   color: #c4c4c4;
 }
-/* --------------------- PRODUCTOAB --------------------- */
+/* --------------------- PRODUCTOAB (gestión interna) --------------------- [Jaime] */
 
-/* --------------------- PRODUCTO A10 --------------------- */
+/* --------------------- PRODUCTO A10 (listado-de-productos-adm) ---------- [Jaime] */
 .headerIconos {
   margin-top: 20px;
   margin-bottom: 16px;
@@ -607,7 +599,6 @@ p {
   width: 36px;
   height: 36px;
 }
-
 .bloqueNaranja img:hover {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
     contrast(103%);
@@ -696,10 +687,10 @@ p {
 .banner img {
   width: 90%;
 }
-/* --------------------- PRODUCTO A10 --------------------- */
+/* --------------------- PRODUCTO A10 (listado-de-productos-adm) ----------- [Jaime] */
 
 
-/* ------------------------------- CompCarga -------------------------------*/
+/* ------------------------------- CompCarga ------------------------------- [Jaime] */
 .animacion2 {
   position: absolute;
   display: flex;
@@ -716,7 +707,6 @@ pie {
   margin: 1em;
   animation: bg-pie 1s step-end both;
 }
-
 @keyframes bg-pie {
   14.28% {
     background-image: linear-gradient(145deg, transparent 50%, white 50%),
@@ -743,7 +733,6 @@ pie {
       linear-gradient(90deg, white 50%, transparent 50%);
   }
 }
-
 .bigote {
   width: 218px;
   height: 67px;
@@ -753,7 +742,6 @@ pie {
   animation: bigoteAnimacion 1.5s step-end both;
   animation-delay: 1s;
 }
-
 @keyframes bigoteAnimacion {
   0% {
     opacity: 0%;
@@ -785,13 +773,10 @@ pie {
   0% {
     opacity: 0%;
   }
-
   50% {
     opacity: 100%;
   }
 }
-
-
 .slogan {
   position: relative;
   width: 250px;
@@ -809,7 +794,7 @@ pie {
     opacity: 110%;
   }
 }
-/* ------------------------------- CompCarga  Jaime-------------------------------*/
+/* ------------------------------- CompCarga------------------------------- [Jaime] */
 
 =======
 =======
