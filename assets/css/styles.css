@@ -634,7 +634,6 @@ p {
   width: 65px;
 }
 .texto {
-  /* border: solid blue 2px; */
   width: 50%;
   height: 64px;
   display: flex;
@@ -650,7 +649,6 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* border: solid red 1px; */
   width: 100%;
   margin-left: 20px;
 }
@@ -1264,7 +1262,6 @@ p {
   justify-content: center;
   align-items: center;
 }
-/* ------------ CIRCULO AMARILLO -----------*/
 pie {
   width: 290px;
   height: 290px;
@@ -1301,7 +1298,6 @@ pie {
       linear-gradient(90deg, white 50%, transparent 50%);
   }
 }
-/* ---------------- Bigote ------------*/
 .bigote {
   width: 218px;
   height: 67px;
@@ -1330,7 +1326,6 @@ pie {
     transform: rotate(1deg);
   }
 }
-/* --------- Título Animado ----------*/
 .tituloAnimado {
   position: relative;
   width: 250px;
@@ -1348,7 +1343,6 @@ pie {
     opacity: 100%;
   }
 }
-/* ------------ SLOGAN ------------*/
 .slogan {
   position: relative;
   width: 250px;
