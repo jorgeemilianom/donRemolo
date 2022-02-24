@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color1: #fff485;
+}
+/* ----------------------------------------
+  |   Por defecto
+  -------------------------------------------*/
+body {
+  background: url("../img/backgroundCompleto.svg");
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* ----------------------------------------
+  |   Aux
+  -------------------------------------------*/
+.b {
+  border: red solid 1px;
+}
+/* ----------------------------------------
+  |   Generales
+  -------------------------------------------*/
+.content {
+  display: flex;
+  place-content: center;
+  margin: 20px;
+  flex-direction: column;
+  /* border: solid red 1px; */
+}
+.cabecera img {
+  width: 100%;
+}
+
+/* --------------------- PRODUCTOAB --------------------- */
+
+.contenedorPrincipal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  /* border: solid red 3px; */
+  box-shadow: 0px 2.71296px 13.5648px rgba(0, 0, 0, 0.15);
+  place-items: center;
+  /* height: 74px; */
+  background-color: #ffffff;
+  border-radius: 9px;
+  margin-bottom: 13px;
+}
+.contenedorPrincipal p {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 13px;
+  margin-top: 8px;
+}
+.numero {
+  width: 90%;
+  align-items: center;
+  margin: auto;
+}
+
+.contenedorPrincipal p strong {
+  font-size: 18px;
+}
+.contenedorPedidos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* border: solid red 1px; */
+  width: 100%;
+}
+.parBotones {
+  /* width: 92px;
+  height: 33.3px; */
+  width: 45%;
+  height: 33.3px;
+  border: solid 1px #ec3205;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 13px;
+  background-color: #c4c4c4;
+  color: #ec3205;
+  font-size: 16px;
+}
+.botonNaranja {
+  margin-bottom: 13px;
+  font-size: 18px;
+  line-height: 25px;
+  line-height: 100%;
+  width: 88%;
+  height: 33.3px;
+  border: solid 1px #ec3205;
+  background-color: #ec3205;
+  color: #c4c4c4;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parBotones:hover {
+  color: #c4c4c4;
+  background-color: #ec3205;
+}
+.naranja {
+  background-color: #ec3205;
+  color: #c4c4c4;
+}
+.naranja:hover {
+  background-color: #c4c4c4;
+  color: #ec3205;
+}
+p {
+  font-weight: 900;
+  font-family: donRemolo;
+  color: #313638;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 15px;
+}
+
+.click button:focus {
+  background: #ec3205;
+  color: #c4c4c4;
+}
+/* --------------------- PRODUCTOAB --------------------- */

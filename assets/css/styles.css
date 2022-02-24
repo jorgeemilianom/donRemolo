@@ -403,8 +403,6 @@ tr p {
   background-color: #ec3205;
   transition: all 0.1s ease;
 }
-/* --------------------- ICONOS --------------------- */
-
 .contenedorPedidos {
   display: flex;
   flex-direction: row;
@@ -708,7 +706,6 @@ p {
   justify-content: center;
   align-items: center;
 }
-/* ------------------------------- CIRCULO AMARILLO -------------------------------*/
 pie {
   width: 290px;
   height: 290px;
@@ -747,7 +744,6 @@ pie {
   }
 }
 
-/* ------------------------------- Bigote -------------------------------*/
 .bigote {
   width: 218px;
   height: 67px;
@@ -777,7 +773,6 @@ pie {
     transform: rotate(1deg);
   }
 }
-/* ------------------------------- Título Animado -------------------------------*/
 .tituloAnimado {
   position: relative;
   width: 250px;
@@ -785,7 +780,6 @@ pie {
   left: 7.8%;
   top: -26%;
   animation: tituloAnimacion 6s step-end both;
-  /* animation-delay: 4s; */
 }
 @keyframes tituloAnimacion {
   0% {
@@ -797,7 +791,6 @@ pie {
   }
 }
 
-/* ------------------------------- SLOGAN -------------------------------*/
 
 .slogan {
   position: relative;
@@ -816,7 +809,7 @@ pie {
     opacity: 110%;
   }
 }
-/* ------------------------------- CompCarga -------------------------------*/
+/* ------------------------------- CompCarga  Jaime-------------------------------*/
 
 =======
 =======
