@@ -25,18 +25,15 @@ a {
     -------------------------------------------*/
 .content {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
   place-content: center;
   margin: 20px;
   flex-direction: column;
-  /* border: solid red 1px; */
 }
 .cabecera img {
   width: 100%;
 }
 
-/*  ***************************************************************************** */
+/* ------------------------------- CompCarga -------------------------------*/
 .animacion2 {
   position: absolute;
   display: flex;
@@ -151,3 +148,4 @@ pie {
     opacity: 110%;
   }
 }
+/* ------------------------------- CompCarga -------------------------------*/
