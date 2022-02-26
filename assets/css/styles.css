@@ -346,18 +346,6 @@ tr p {
 .fondoContenedor img {
   height: 14px;
 }
-.contenedorTexto {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  font-weight: bold;
-  font-size: 26px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  margin: 40px 20px;
-  text-align: center;
-}
-
 /*  [Jaime]
 |   PRODUCTO1 
 |   PRODUCTOAB     
@@ -794,17 +782,6 @@ pie {
 }
 /* ------------------------------- CompCarga------------------------------- [Jaime] */
 
-=======
-=======
->>>>>>> 915bc49e85a48d6bf6904138a1e9e9230933a62e
-    font-weight: bold;
-    font-size: 26px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: 40px 20px;
-    text-align: center;
-}
 /* ----------------------------------------
 |   productoA9 [Víctor]
 -------------------------------------------*/
@@ -1150,10 +1127,6 @@ input[type="number"]::-webkit-inner-spin-button {
   border: none;
 }
 
-<<<<<<< HEAD
->>>>>>> 3d19526b4a795f4a1f391eb2ace655688ce1eb6e
-
-=======
 .contenedorPrincipal p strong {
   font-size: 18px;
 }
@@ -1430,4 +1403,3 @@ pie {
       font-size: 15px;
   }
 }
->>>>>>> 915bc49e85a48d6bf6904138a1e9e9230933a62e
